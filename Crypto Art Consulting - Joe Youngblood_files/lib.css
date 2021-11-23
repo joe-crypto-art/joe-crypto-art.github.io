@@ -1,0 +1,410 @@
+/* =============================================================================
+   Load Icon Fonts
+   ============================================================================= */
+@font-face{
+	font-family:'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+	url('fonts/icomoon.woff') format('woff'),
+	url('fonts/icomoon.ttf') format('truetype'),
+	url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight:normal;
+	font-style:normal !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icomoon';
+		src: url('fonts/icomoon.svg#icomoon') format('svg'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype');
+	}
+}
+
+[class^="icon-"], [class*="icon-"] {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="icon-"]::before, .btn-icon a:before, .widget_search #searchform:before {
+	content: "\e648";
+	font-family: "icomoon";
+	font-size: inherit;
+	position: relative;
+	top: 1px;
+}
+
+.icon-menu:before{content:"\e601"}.icon-next:before{content:"\e602"}.icon-prev:before{content:"\e603"}.icon-google-plus:before,.icon-googlepl::before{content:"\e7c4"}.icon-instagram:before{content:"\e7c5"}.icon-home:before{content:"\e600"}.icon-droplet:before{content:"\e60a"}.icon-images:before{content:"\e60e"}.icon-camera:before,.icon-gallery::before{content:"\e60f"}.icon-music:before,.icon-audio::before{content:"\e610"}.icon-bullhorn:before{content:"\e61b"}.icon-connection:before{content:"\e61c"}.icon-copy:before{content:"\e627"}.icon-stack:before{content:"\e62d"}.icon-folder-open:before{content:"\e62f"}.icon-tags:before{content:"\e631"}.icon-ticket:before{content:"\e634"}.icon-envelope:before{content:"\e640"}.icon-clock:before,.icon-date::before{content:"\e648"}.icon-clock2:before{content:"\e649"}.icon-calendar:before{content:"\e64e"}.icon-calendar2:before{content:"\e64f"}.icon-keyboard:before{content:"\e651"}.icon-screen:before{content:"\e652"}.icon-laptop:before{content:"\e653"}.icon-mobile:before{content:"\e654"}.icon-mobile2:before{content:"\e655"}.icon-tablet:before{content:"\e656"}.icon-tv:before{content:"\e657"}.icon-drawer2:before{content:"\e65a"}.icon-drawer3:before{content:"\e65b"}.icon-box-add:before{content:"\e65c"}.icon-box-remove:before{content:"\e65d"}.icon-bubble:before{content:"\e66a"}.icon-bubbles:before{content:"\e66b"}.icon-bubbles2:before,.icon-comments::before{content:"\e66c"}.icon-bubble2:before{content:"\e66d"}.icon-bubbles3:before{content:"\e66e"}.icon-bubbles4:before{content:"\e66f"}.icon-user:before,.icon-author::before{content:"\e670"}.icon-users:before{content:"\e671"}.icon-user4:before{content:"\e675"}.icon-quotes-left:before{content:"\e676"}.icon-spinner:before{content:"\e678"}.icon-search:before{content:"\e67f"}.icon-zoomin:before{content:"\e680"}.icon-zoomout:before{content:"\e681"}.icon-settings:before{content:"\e68c"}.icon-equalizer:before{content:"\e68d"}.icon-cog:before{content:"\e68e"}.icon-cogs:before{content:"\e68f"}.icon-cog2:before{content:"\e690"}.icon-bug:before{content:"\e694"}.icon-leaf:before{content:"\e69e"}.icon-rocket:before{content:"\e69f"}.icon-dashboard:before{content:"\e6a2"}.icon-fire:before,.icon-views::before{content:"\e6a4"}.icon-lab:before{content:"\e6a5"}.icon-remove2:before{content:"\e6a8"}.icon-lightning:before{content:"\e6b0"}.icon-menu22:before{content:"\e6b8"}.icon-cloud:before{content:"\e6ba"}.icon-link:before{content:"\e6c3"}.icon-eye:before{content:"\e6c6"}.icon-bookmark:before{content:"\e6c9"}.icon-bookmarks:before{content:"\e6ca"}.icon-star3:before{content:"\e6d0"}.icon-heart:before{content:"\e6d1"}.icon-heart2:before{content:"\e6d2"}.icon-heart-broken:before{content:"\e6d3"}.icon-thumbs-up:before{content:"\e6d4"}.icon-thumbs-up2:before{content:"\e6d5"}.icon-smiley:before{content:"\e6d8"}.icon-smiley2:before{content:"\e6d9"}.icon-wink:before{content:"\e6de"}.icon-wink2:before{content:"\e6df"}.icon-evil:before{content:"\e6e6"}.icon-evil2:before{content:"\e6e7"}.icon-warning:before{content:"\e6f4"}.icon-notification:before{content:"\e6f5"}.icon-question:before{content:"\e6f6"}.icon-info:before{content:"\e6f7"}.icon-info2:before{content:"\e6f8"}.icon-close:before{content:"\e6fd"}.icon-checkmark:before{content:"\e6fe"}.icon-minus:before{content:"\e701"}.icon-plus:before{content:"\e702"}.icon-enter:before{content:"\e703"}.icon-exit:before{content:"\e704"}.icon-play3:before,.icon-video::before{content:"\e70a"}.icon-pause2:before{content:"\e70b"}.icon-stop2:before{content:"\e70c"}.icon-backward2:before{content:"\e70d"}.icon-forward3:before{content:"\e70e"}.icon-loop:before{content:"\e71b"}.icon-loop2:before{content:"\e71c"}.icon-loop3:before{content:"\e71d"}.icon-radio-checked:before,.icon-related:before{content:"\e73b"}.icon-paragraph-justify2:before{content:"\e757"}.icon-mail4:before{content:"\e762"}.icon-google:before{content:"\e763"}.icon-googleplus:before{content:"\e764"}.icon-googleplus3:before{content:"\e766"}.icon-googleplus4:before{content:"\e767"}.icon-google-drive:before{content:"\e768"}.icon-facebook:before{content:"\e769"}.icon-instagram2:before{content:"\e76c"}.icon-twitter:before{content:"\e76d"}.icon-feed:before{content:"\e770"}.icon-youtube:before{content:"\e773"}.icon-youtube2:before{content:"\e774"}.icon-vimeo:before{content:"\e775"}.icon-flickr:before{content:"\e779"}.icon-picassa:before{content:"\e77d"}.icon-dribbble:before{content:"\e77f"}.icon-deviantart:before{content:"\e784"}.icon-steam:before{content:"\e786"}.icon-github:before{content:"\e788"}.icon-github3:before{content:"\e78a"}.icon-wordpress:before{content:"\e78d"}.icon-wordpress2:before{content:"\e78e"}.icon-blogger:before{content:"\e790"}.icon-tumblr:before{content:"\e792"}.icon-tumblr2:before{content:"\e793"}.icon-soundcloud:before{content:"\e79b"}.icon-reddit:before{content:"\e79e"}.icon-linkedin:before{content:"\e79f"}.icon-lastfm:before{content:"\e7a0"}.icon-pinterest:before{content:"\e7a6"}.icon-xing2:before{content:"\e7a9"}.icon-foursquare2:before{content:"\e7ac"}.icon-paypal:before{content:"\e7ad"}.icon-html5:before{content:"\e7ba"}
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2015 Daniel Eden
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes animated {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes animated {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.animated {
+  -webkit-animation-name: animated;
+  animation-name: animated; }
+
+/*! =============================================================================
+   Owl Carousel CSS3 Transitions v1.3.2
+   ============================================================================= */
+
+owl-origin{-webkit-perspective:1200px;-webkit-perspective-origin-x:50%;-webkit-perspective-origin-y:50%;-moz-perspective:1200px;-moz-perspective-origin-x:50%;-moz-perspective-origin-y:50%;perspective:1200px}.owl-fade-out{z-index:10;-webkit-animation:fadeOut .7s both ease;-moz-animation:fadeOut .7s both ease;animation:fadeOut .7s both ease}.owl-fade-in{-webkit-animation:fadeIn .7s both ease;-moz-animation:fadeIn .7s both ease;animation:fadeIn .7s both ease}.owl-backSlide-out{-webkit-animation:backSlideOut 1s both ease;-moz-animation:backSlideOut 1s both ease;animation:backSlideOut 1s both ease}.owl-backSlide-in{-webkit-animation:backSlideIn 1s both ease;-moz-animation:backSlideIn 1s both ease;animation:backSlideIn 1s both ease}.owl-goDown-out{-webkit-animation:scaleToFade .7s ease both;-moz-animation:scaleToFade .7s ease both;animation:scaleToFade .7s ease both}.owl-goDown-in{-webkit-animation:goDown .6s ease both;-moz-animation:goDown .6s ease both;animation:goDown .6s ease both}.owl-fadeUp-in{-webkit-animation:scaleUpFrom .5s ease both;-moz-animation:scaleUpFrom .5s ease both;animation:scaleUpFrom .5s ease both}.owl-fadeUp-out{-webkit-animation:scaleUpTo .5s ease both;-moz-animation:scaleUpTo .5s ease both;animation:scaleUpTo .5s ease both}@-webkit-keyframes empty{0%{opacity:1}}@-moz-keyframes empty{0%{opacity:1}}@keyframes empty{0%{opacity:1}}@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@-moz-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes backSlideOut{25%{opacity:.5;-webkit-transform:translateZ(-500px)}100%,75%{opacity:.5;-webkit-transform:translateZ(-500px) translateX(-200%)}}@-moz-keyframes backSlideOut{25%{opacity:.5;-moz-transform:translateZ(-500px)}100%,75%{opacity:.5;-moz-transform:translateZ(-500px) translateX(-200%)}}@keyframes backSlideOut{25%{opacity:.5;transform:translateZ(-500px)}100%,75%{opacity:.5;transform:translateZ(-500px) translateX(-200%)}}@-webkit-keyframes backSlideIn{0%,25%{opacity:.5;-webkit-transform:translateZ(-500px) translateX(200%)}75%{opacity:.5;-webkit-transform:translateZ(-500px)}100%{opacity:1;-webkit-transform:translateZ(0) translateX(0)}}@-moz-keyframes backSlideIn{0%,25%{opacity:.5;-moz-transform:translateZ(-500px) translateX(200%)}75%{opacity:.5;-moz-transform:translateZ(-500px)}100%{opacity:1;-moz-transform:translateZ(0) translateX(0)}}@keyframes backSlideIn{0%,25%{opacity:.5;transform:translateZ(-500px) translateX(200%)}75%{opacity:.5;transform:translateZ(-500px)}100%{opacity:1;transform:translateZ(0) translateX(0)}}@-webkit-keyframes scaleToFade{to{opacity:0;-webkit-transform:scale(.8)}}@-moz-keyframes scaleToFade{to{opacity:0;-moz-transform:scale(.8)}}@keyframes scaleToFade{to{opacity:0;transform:scale(.8)}}@-webkit-keyframes goDown{from{-webkit-transform:translateY(-100%)}}@-moz-keyframes goDown{from{-moz-transform:translateY(-100%)}}@keyframes goDown{from{transform:translateY(-100%)}}@-webkit-keyframes scaleUpFrom{from{opacity:0;-webkit-transform:scale(1.5)}}@-moz-keyframes scaleUpFrom{from{opacity:0;-moz-transform:scale(1.5)}}@keyframes scaleUpFrom{from{opacity:0;transform:scale(1.5)}}@-webkit-keyframes scaleUpTo{to{opacity:0;-webkit-transform:scale(1.5)}}@-moz-keyframes scaleUpTo{to{opacity:0;-moz-transform:scale(1.5)}}@keyframes scaleUpTo{to{opacity:0;transform:scale(1.5)}}
+
+/*! =============================================================================
+   Core Owl Carousel CSS File v1.24
+   ============================================================================= */
+
+.owl-pagination {
+	display: none;
+}
+
+.owl-carousel .owl-wrapper:after { /* clearfix */
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.owl-carousel { /* display none until init */
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+.owl-carousel .owl-wrapper {
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+	float: left;
+}
+.owl-controls .owl-page, .owl-controls .owl-buttons div {
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.grabbing {
+	cursor: url(../img/grabbing.png), auto;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+}
+
+/*! =============================================================================
+   Owl Carousel Owl Demo Theme  v1.24
+   ============================================================================= */
+
+.owl-theme .owl-controls {
+	margin-top: 10px;
+	text-align: center;
+}
+.owl-controls {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	color: transparent !important;
+	display: inline-block;
+	zoom: 1;
+	*display: inline; /*IE7 life-saver */
+	margin: 5px;
+	padding: 6px 10px;
+	font-size: 24px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	background: #000;
+	filter: Alpha(Opacity=50); /*IE7 fix*/
+	width: 46px;
+	height: 46px;
+	overflow: hidden !important;
+	opacity: 0.9 !important;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+	opacity: 1 !important;
+}
+.owl-theme .owl-controls .owl-buttons {
+	position: absolute;
+	top: 45% !important;
+	width: 100%;
+	z-index: 99;
+	opacity: .7;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s ease-out;
+	transition: .3s linear;
+}
+.owl-theme:hover .owl-buttons {
+	opacity: 1;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s ease-out;
+	transition: .3s linear;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute;
+	z-index: 9999;
+}
+.owl-prev::before, .owl-next::before {
+	content: "\e602";
+	color: #fff;
+	font-family: "Icomoon";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	position: relative;
+	line-height: 1;
+	top: 2px;
+	right:0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.owl-prev::before {
+	content: "\e603";
+}
+.owl-prev {
+	display: none !important;
+}
+.owl-next {
+	right: -5px;
+}
+
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons {
+	opacity: 1;
+}
+
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons div {
+	opacity: 0.5 !important;
+}
+
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons div {
+	margin: 0px;
+	padding: 0;
+	font-size: 24px;
+	background: #000;
+	width: 36px;
+	height: 36px;
+	opacity: 0.7 !important;
+}
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons div:hover {
+	opacity: 1 !important;
+}
+
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons div{
+	background: transparent;
+	border:0px solid #ddd;
+}
+
+#vn-featured-carousel .owl-theme .owl-controls .owl-buttons{
+	opacity: 1;
+	top: -65px !important;
+}
+
+#vn-featured-carousel .owl-prev::before, #vn-featured-carousel .owl-next::before {
+	color:#000;
+}
+
+#vn-featured-carousel .owl-prev{
+	display: block !important;
+	right: 20px !important;
+}
+
+#vn-featured-carousel .owl-next::before{
+	right:-5px;
+}
+
+#vn-featured-carousel .owl-prev::before{
+	content: "\e603";
+	left:-0px;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	filter: Alpha(Opacity=100); /*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+	display: inline-block;
+	zoom: 1;
+	*display: inline; /*IE7 life-saver */
+
+position: relative;
+	top: 16px;
+	z-index: 9999 !important;
+}
+.owl-theme .owl-controls .owl-page span {
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin: 3px 7px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 3px solid #fff;
+	background: #666;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s ease-out;
+	transition: .3s linear;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: #FF3431;
+	-moz-transition: .01s linear;
+	-webkit-transition: .01s ease-out;
+	transition: .01s linear;
+}
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.owl-item.loading {
+	min-height: 150px;
+	background: url(../img/preload.gif) no-repeat center center
+}
+
+/* =============================================================================
+   WordPress Player (Responsive CSS)
+   ============================================================================= */
+.mejs-container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mejs-overlay-button {
+	text-align: center;
+	width: 100%;
+}
+
+.mejs-container {
+	width: 100%;
+	height: auto;
+	padding-top: 57%;
+}
+
+.wp-playlist {
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+.mejs-audio {
+	width: auto;
+	height: auto;
+	padding-top: 40px;
+	margin-bottom: 0px;
+}
+
+.entry-content .mejs-audio, .entry-content .wp-playlist {
+	margin-bottom: 15px;
+}
+
+.mejs-overlay, .mejs-poster {
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+
+.mejs-mediaelement video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.single-format-video .mejs-container, .single-format-video .mejs-embed, .single-format-video .mejs-embed body {
+	background: #333;
+}
+
+.single-format-video .wp-video, .single-format-video video.wp-video-shortcode, .single-format-video .mejs-container, .single-format-video .mejs-overlay.load {
+	width: 100% !important;
+	height: 100% !important;
+}
+.single-format-video .wp-video, .single-format-video video.wp-video-shortcode {
+	max-width: 100% !important;
+}
+.single-format-video video.wp-video-shortcode {
+	position: relative;
+}
+.single-format-video .mejs-mediaelement {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.single-format-video .mejs-controls {
+	display: none;
+}
+.single-format-video .mejs-overlay-play {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: auto !important;
+	height: auto !important;
+}

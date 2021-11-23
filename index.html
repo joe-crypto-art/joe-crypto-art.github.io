@@ -1,0 +1,2744 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://www.joeyoungblood.com/crypto-art-consulting/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"
+    class=" js_active  vc_desktop  vc_transform  vc_transform ">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="./Crypto Art Consulting - Joe Youngblood_files/all.js" async="" crossorigin="anonymous"></script>
+    <script id="facebook-jssdk" async="" src="./Crypto Art Consulting - Joe Youngblood_files/all(1).js"></script>
+    <script src="./Crypto Art Consulting - Joe Youngblood_files/cb=gapi.loaded_1" async=""></script>
+    <script src="./Crypto Art Consulting - Joe Youngblood_files/cb=gapi(3).loaded_0" async=""></script>
+    <script type="text/javascript" async="" src="./Crypto Art Consulting - Joe Youngblood_files/recaptcha__en.js"
+        crossorigin="anonymous"
+        integrity="sha384-yF7E1ktGfbA26NWZZupkIgKSvH2WmFG90KyY3BzFp06blZkjALcng9gGnuW5hlae"></script>
+    <script async="" src="./Crypto Art Consulting - Joe Youngblood_files/analytics.js"></script>
+    <script>if (navigator.userAgent.match(/MSIE|Internet Explorer/i) || navigator.userAgent.match(/Trident\/7\..*?rv:11/i)) { var href = document.location.href; if (!href.match(/[?&]nowprocket/)) { if (href.indexOf("?") == -1) { if (href.indexOf("#") == -1) { document.location.href = href + "?nowprocket=1" } else { document.location.href = href.replace("#", "?nowprocket=1#") } } else { if (href.indexOf("#") == -1) { document.location.href = href + "&nowprocket=1" } else { document.location.href = href.replace("#", "&nowprocket=1#") } } } }</script>
+    <script>class RocketLazyLoadScripts { constructor(e) { this.triggerEvents = e, this.eventOptions = { passive: !0 }, this.userEventListener = this.triggerListener.bind(this), this.delayedScripts = { normal: [], async: [], defer: [] }, this.allJQueries = [] } _addUserInteractionListener(e) { this.triggerEvents.forEach((t => window.addEventListener(t, e.userEventListener, e.eventOptions))) } _removeUserInteractionListener(e) { this.triggerEvents.forEach((t => window.removeEventListener(t, e.userEventListener, e.eventOptions))) } triggerListener() { this._removeUserInteractionListener(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._loadEverythingNow.bind(this)) : this._loadEverythingNow() } async _loadEverythingNow() { this._delayEventListeners(), this._delayJQueryReady(this), this._handleDocumentWrite(), this._registerAllDelayedScripts(), this._preloadAllScripts(), await this._loadScriptsFromList(this.delayedScripts.normal), await this._loadScriptsFromList(this.delayedScripts.defer), await this._loadScriptsFromList(this.delayedScripts.async), await this._triggerDOMContentLoaded(), await this._triggerWindowLoad(), window.dispatchEvent(new Event("rocket-allScriptsLoaded")) } _registerAllDelayedScripts() { document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e => { e.hasAttribute("src") ? e.hasAttribute("async") && !1 !== e.async ? this.delayedScripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(e) : this.delayedScripts.normal.push(e) : this.delayedScripts.normal.push(e) })) } async _transformScript(e) { return await this._requestAnimFrame(), new Promise((t => { const n = document.createElement("script"); let r;[...e.attributes].forEach((e => { let t = e.nodeName; "type" !== t && ("data-rocket-type" === t && (t = "type", r = e.nodeValue), n.setAttribute(t, e.nodeValue)) })), e.hasAttribute("src") ? (n.addEventListener("load", t), n.addEventListener("error", t)) : (n.text = e.text, t()), e.parentNode.replaceChild(n, e) })) } async _loadScriptsFromList(e) { const t = e.shift(); return t ? (await this._transformScript(t), this._loadScriptsFromList(e)) : Promise.resolve() } _preloadAllScripts() { var e = document.createDocumentFragment();[...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async].forEach((t => { const n = t.getAttribute("src"); if (n) { const t = document.createElement("link"); t.href = n, t.rel = "preload", t.as = "script", e.appendChild(t) } })), document.head.appendChild(e) } _delayEventListeners() { let e = {}; function t(t, n) { !function (t) { function n(n) { return e[t].eventsToRewrite.indexOf(n) >= 0 ? "rocket-" + n : n } e[t] || (e[t] = { originalFunctions: { add: t.addEventListener, remove: t.removeEventListener }, eventsToRewrite: [] }, t.addEventListener = function () { arguments[0] = n(arguments[0]), e[t].originalFunctions.add.apply(t, arguments) }, t.removeEventListener = function () { arguments[0] = n(arguments[0]), e[t].originalFunctions.remove.apply(t, arguments) }) }(t), e[t].eventsToRewrite.push(n) } function n(e, t) { let n = e[t]; Object.defineProperty(e, t, { get: () => n || function () { }, set(r) { e["rocket" + t] = n = r } }) } t(document, "DOMContentLoaded"), t(window, "DOMContentLoaded"), t(window, "load"), t(window, "pageshow"), t(document, "readystatechange"), n(document, "onreadystatechange"), n(window, "onload"), n(window, "onpageshow") } _delayJQueryReady(e) { let t = window.jQuery; Object.defineProperty(window, "jQuery", { get: () => t, set(n) { if (n && n.fn && !e.allJQueries.includes(n)) { n.fn.ready = n.fn.init.prototype.ready = function (t) { e.domReadyFired ? t.bind(document)(n) : document.addEventListener("rocket-DOMContentLoaded", (() => t.bind(document)(n))) }; const t = n.fn.on; n.fn.on = n.fn.init.prototype.on = function () { if (this[0] === window) { function e(e) { return e.split(" ").map((e => "load" === e || 0 === e.indexOf("load.") ? "rocket-jquery-load" : e)).join(" ") } "string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach((t => { delete Object.assign(arguments[0], { [e(t)]: arguments[0][t] })[t] })) } return t.apply(this, arguments), this }, e.allJQueries.push(n) } t = n } }) } async _triggerDOMContentLoaded() { this.domReadyFired = !0, await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-readystatechange")), await this._requestAnimFrame(), document.rocketonreadystatechange && document.rocketonreadystatechange() } async _triggerWindowLoad() { await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-load")), await this._requestAnimFrame(), window.rocketonload && window.rocketonload(), await this._requestAnimFrame(), this.allJQueries.forEach((e => e(window).trigger("rocket-jquery-load"))), window.dispatchEvent(new Event("rocket-pageshow")), await this._requestAnimFrame(), window.rocketonpageshow && window.rocketonpageshow() } _handleDocumentWrite() { const e = new Map; document.write = document.writeln = function (t) { const n = document.currentScript, r = document.createRange(), i = n.parentElement; let o = e.get(n); void 0 === o && (o = n.nextSibling, e.set(n, o)); const a = document.createDocumentFragment(); r.setStart(a, 0), a.appendChild(r.createContextualFragment(t)), i.insertBefore(a, o) } } async _requestAnimFrame() { return new Promise((e => requestAnimationFrame(e))) } static run() { const e = new RocketLazyLoadScripts(["keydown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"]); e._addUserInteractionListener(e) } } RocketLazyLoadScripts.run();
+    </script>
+    <meta name="rank" content="can haz pagerank pls?">
+    <!-- follow @Jammer_Volts on Twitter -->
+
+    <script type="text/javascript">
+        if (!gform) { document.addEventListener("gform_main_scripts_loaded", function () { gform.scriptsLoaded = !0 }), window.addEventListener("DOMContentLoaded", function () { gform.domLoaded = !0 }); var gform = { domLoaded: !1, scriptsLoaded: !1, initializeOnLoaded: function (o) { gform.domLoaded && gform.scriptsLoaded ? o() : !gform.domLoaded && gform.scriptsLoaded ? window.addEventListener("DOMContentLoaded", o) : document.addEventListener("gform_main_scripts_loaded", o) }, hooks: { action: {}, filter: {} }, addAction: function (o, n, r, t) { gform.addHook("action", o, n, r, t) }, addFilter: function (o, n, r, t) { gform.addHook("filter", o, n, r, t) }, doAction: function (o) { gform.doHook("action", o, arguments) }, applyFilters: function (o) { return gform.doHook("filter", o, arguments) }, removeAction: function (o, n) { gform.removeHook("action", o, n) }, removeFilter: function (o, n, r) { gform.removeHook("filter", o, n, r) }, addHook: function (o, n, r, t, i) { null == gform.hooks[o][n] && (gform.hooks[o][n] = []); var e = gform.hooks[o][n]; null == i && (i = n + "_" + e.length), null == t && (t = 10), gform.hooks[o][n].push({ tag: i, callable: r, priority: t }) }, doHook: function (o, n, r) { if (r = Array.prototype.slice.call(r, 1), null != gform.hooks[o][n]) { var t, i = gform.hooks[o][n]; i.sort(function (o, n) { return o.priority - n.priority }); for (var e = 0; e < i.length; e++)"function" != typeof (t = i[e].callable) && (t = window[t]), "action" == o ? t.apply(null, r) : r[0] = t.apply(null, r) } if ("filter" == o) return r[0] }, removeHook: function (o, n, r, t) { if (null != gform.hooks[o][n]) for (var i = gform.hooks[o][n], e = i.length - 1; 0 <= e; e--)null != t && t != i[e].tag || null != r && r != i[e].priority || i.splice(e, 1) } } }
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://www.joeyoungblood.com/xmlrpc.php">
+
+    <!--[if lt IE 9]>
+<script src="https://www.joeyoungblood.com/wp-content/themes/vania/js/html5shiv.js"></script>
+<![endif]-->
+
+    <!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
+    <meta name="specificfeeds-verification-code" content="zBnRqWMrKcuxJ2n782Jf">
+
+    <!--
+If you&#039;re reading this and looking for an internship head over to this link and apply: https://www.joeyoungblood.com/about/digital-marketing-paid-internship-gif-edition/
+-->
+    <!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->
+
+    <!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
+    <link rel="manifest" href="https://www.joeyoungblood.com/superpwa-manifest.json">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/superpwa-manifest.json">
+    <meta name="theme-color" content="#D5E0EB">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Joe Youngblood SEO &amp; Digital Marketing">
+    <meta name="application-name" content="Joe Youngblood SEO &amp; Digital Marketing">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" sizes="192x192"
+        href="https://www.joeyoungblood.com/wp-content/uploads/2019/02/joeyoungbloodseo-favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512"
+        href="https://www.joeyoungblood.com/wp-content/uploads/2019/02/joeyoungbloodseo-favicon-512x512.png">
+    <!-- / SuperPWA.com -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/rich-reviews.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/register-sw.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/lib.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/init.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/js_composer_front.min.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="script" href="./Crypto Art Consulting - Joe Youngblood_files/vc-waypoints.min.js"
+        data-wpacu-preload-js="1">
+    <link rel="preload" as="font"
+        href="https://www.joeyoungblood.com/wp-content/plugins/rich-reviews/fonts/glyphicons-halflings-regular.ttf"
+        data-wpacu-preload-font="1" crossorigin="">
+    <link rel="preload" as="font"
+        href="https://www.joeyoungblood.com/wp-content/plugins/rich-reviews/fonts/glyphicons-halflings-regular.woff"
+        data-wpacu-preload-font="1" crossorigin="">
+    <link rel="preload" as="font"
+        href="https://www.joeyoungblood.com/wp-content/plugins/rich-reviews/fonts/glyphicons-halflings-regular.eot"
+        data-wpacu-preload-font="1" crossorigin="">
+    <link rel="preload" as="font"
+        href="https://www.joeyoungblood.com/wp-content/plugins/rich-reviews/fonts/glyphicons-halflings-regular.svg"
+        data-wpacu-preload-font="1" crossorigin="">
+
+    <!-- This site is optimized with the Yoast SEO plugin v16.9 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Crypto Art Consulting - Joe Crypto</title>
+    <link rel="preload" as="style" href="./Crypto Art Consulting - Joe Youngblood_files/css">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/css" media="all"
+        onload="this.media=&#39;all&#39;"><noscript>
+        <link rel="preload"
+            href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2C400%2C600%7CRoboto%20Condensed%3A400%2C700&#038;display=swap"
+            data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    </noscript>
+    <link rel="canonical" href="https://www.joeyoungblood.com/crypto-art-consulting/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Crypto Art Consulting - Joe Youngblood">
+    <meta property="og:url" content="https://www.joeyoungblood.com/crypto-art-consulting/">
+    <meta property="og:site_name" content="Joe Youngblood">
+    <meta property="article:modified_time" content="2021-10-01T02:34:31+00:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@youngbloodjoe">
+    <meta name="twitter:label1" content="Est. reading time">
+    <meta name="twitter:data1" content="3 minutes">
+    <script type="application/ld+json"
+        class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.joeyoungblood.com/#website","url":"https://www.joeyoungblood.com/","name":"Joe Youngblood","description":"SEO &amp; Digital Marketing Consulting","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.joeyoungblood.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.joeyoungblood.com/crypto-art-consulting/#webpage","url":"https://www.joeyoungblood.com/crypto-art-consulting/","name":"Crypto Art Consulting - Joe Youngblood","isPartOf":{"@id":"https://www.joeyoungblood.com/#website"},"datePublished":"2021-03-29T05:19:40+00:00","dateModified":"2021-10-01T02:34:31+00:00","breadcrumb":{"@id":"https://www.joeyoungblood.com/crypto-art-consulting/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.joeyoungblood.com/crypto-art-consulting/"]}]},{"@type":"BreadcrumbList","@id":"https://www.joeyoungblood.com/crypto-art-consulting/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.joeyoungblood.com/"},{"@type":"ListItem","position":2,"name":"Crypto Art Consulting"}]}]}</script>
+    <!-- / Yoast SEO plugin. -->
+
+
+    <link rel="dns-prefetch" href="https://www.google.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://s.w.org/">
+    <link rel="dns-prefetch" href="https://joeyoungblood.com/">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+    <link rel="dns-prefetch" href="https://connect.facebook.net/">
+    <link rel="dns-prefetch" href="https://joeyoungblood.disqus.com/">
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+    <link rel="dns-prefetch" href="https://forms.mailmunch.co/">
+    <link rel="dns-prefetch" href="https://a.mailmunch.co/">
+    <link rel="dns-prefetch" href="https://widget.intercom.io/">
+    <link rel="dns-prefetch" href="https://staticxx.facebook.com/">
+    <link rel="dns-prefetch" href="https://js.intercomcdn.com/">
+    <link rel="dns-prefetch" href="https://s.thebrighttag.com/">
+    <link rel="dns-prefetch" href="https://static.complementics.com/">
+    <link rel="dns-prefetch" href="https://sync.graph.bluecava.com/">
+    <link rel="dns-prefetch" href="https://adserver.intentiq.com/">
+    <link rel="dns-prefetch" href="https://mpnv2-prod-c.alcmpn.com/">
+    <link rel="dns-prefetch" href="https://s.btstatic.com/">
+    <link rel="dns-prefetch" href="https://api.intentiq.com/">
+    <link rel="dns-prefetch" href="https://hash.qualia.id/">
+    <link rel="dns-prefetch" href="https://login.dotomi.com/">
+    <link rel="dns-prefetch" href="https://p.alcmpn.com/">
+    <link rel="dns-prefetch" href="https://aa.agkn.com/">
+    <link rel="dns-prefetch" href="https://e.dlx.addthis.com/">
+    <link rel="dns-prefetch" href="https://p.alocdn.com/">
+    <link rel="dns-prefetch" href="https://sync.alcmpn.com/">
+    <link rel="dns-prefetch" href="https://loadus.exelator.com/">
+    <link rel="dns-prefetch" href="https://stags.bluekai.com/">
+    <link rel="dns-prefetch" href="https://widget.criteo.com/">
+    <link rel="dns-prefetch" href="https://tags.bluekai.com/">
+    <link rel="dns-prefetch" href="https://e.nexac.com/">
+    <link rel="dns-prefetch" href="https://x.dlx.addthis.com/">
+    <link rel="dns-prefetch" href="https://content-partnersbadge-pa.googleapis.com/">
+    <link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+    <link rel="alternate" type="application/rss+xml" title="Joe Youngblood » Feed"
+        href="https://www.joeyoungblood.com/feed/">
+    <link rel="alternate" type="text/calendar" title="Joe Youngblood » iCal Feed"
+        href="https://www.joeyoungblood.com/events1/?ical=1">
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/www.joeyoungblood.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=e584101e1036f47018a547a1b15d29f7" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style.min.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/animate.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/lvca-frontend.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/icomoon.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/styles.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/owl.carousel.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/font-awesome.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style-front_end.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/ihover.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/all.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/dashicons.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/general.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style.min(1).css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/frontend.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/flatpickr.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/select2.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <style id="wpgb-head-inline-css" type="text/css">
+        .wp-grid-builder:not(.wpgb-template),
+        .wpgb-facet {
+            opacity: 0.01
+        }
+
+        .wpgb-facet fieldset {
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            box-shadow: none
+        }
+
+        .wpgb-facet fieldset:last-child {
+            margin-bottom: 40px;
+        }
+
+        .wpgb-facet fieldset legend.wpgb-sr-only {
+            height: 1px;
+            width: 1px
+        }
+    </style>
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style(1).css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/flexslider.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style(2).css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/bootstrap.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/lib.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/main.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <style id="Style-inline-css" type="text/css">
+        .vn-logo {
+            background-color: #FF4256
+        }
+
+        #vn-header {
+            background-color: #000000;
+        }
+
+        .vn-navbar .sf-menu a {
+            color: #f2f2f2;
+        }
+
+        #vn-btnav span,
+        #vn-btnav span:before,
+        #vn-btnav span:after {
+            background-color: #f2f2f2;
+        }
+
+        .vn-navbar .sf-menu a:hover,
+        .vn-navbar .sf-menu ul.sub-menu li a:hover,
+        .vn-navbar .sf-arrows>li:hover>.sf-with-ul,
+        .sfHover>.sf-with-ul a {
+            background-color: #333333;
+        }
+
+        .vn-search-bar {
+            background-color: #ff4255;
+        }
+
+        .meta-buttons a:hover,
+        .cc-reply,
+        a,
+        a:link,
+        .vn-navbar .sf-menu .current-menu-item a,
+        .vn-navbar .sf-menu .current-menu-parent a,
+        #footer .sf-menu a:hover,
+        .main-content .entry-tags a,
+        #pre-title .pre-sub,
+        .widget ul li a:hover,
+        .widget_vania_popular_posts .entry-title a:hover,
+        .widget_vania_popular_posts .popular_list .meta-cat a,
+        .widget_vania_popular_tabbed .entry-title a:hover,
+        #footer .widget_vania_popular_tabbed li.tabbed_list .meta-cat a,
+        #footer .widget_vania_popular_tabbed .nav-tabs li.active a,
+        #footer .widget_vania_popular_posts .popular_list .meta-cat a,
+        .widget_vania_popular_tabbed li.tabbed_list .meta-cat a,
+        .widget_vania_popular_tabbed .nav-tabs li.active a,
+        .widget_vania_popular_tabbed .nav-tabs li.active a::before,
+        #footer a:hover,
+        #vn-contact-form form span,
+        .bb-author .mini-tag,
+        #infscr-loading,
+        .post-navigation a:hover,
+        .slide-mobmenu ul li a:hover,
+        .slide-mobmenu ul li.current-menu-item a,
+        .main-feed .mini-icons [class*="icon-"]:hover,
+        .bb-author .mini-icons [class*="icon-"]:hover,
+        .container-single-content .vn-dropc .entry-content>p:first-of-type:first-letter,
+        .vn-post-page .vn-dropc .entry-content>p:first-of-type:first-letter,
+        #vn-main-feed .meta-category a,
+        #footer .form-search .searchsubmit {
+            color: #FF4256;
+        }
+
+        h3.section-title span,
+        .widget_tag_cloud ul li a:hover,
+        .widget_tags_vania ul li a:hover,
+        .widget_cats_vania ul li a:hover,
+        #footer .widget_tag_cloud ul li a:hover,
+        #footer .widget_tags_vania ul li a:hover,
+        #footer .widget_cats_vania ul li a:hover,
+        .widget_quick-flickr-widget ul li img:hover,
+        #footer .widget_quick-flickr-widget ul li img:hover,
+        .rad-button,
+        #commentform input#submit,
+        #submit.rad-button .widget_vania_authors ul li a:hover,
+        #comments #respond input#submit,
+        #footer .form-search .searchsubmit {
+            border-color: #FF4256;
+        }
+
+        .nav-load a {
+            border-bottom-color: #FF4256;
+        }
+
+        .score-tag,
+        #wp-calendar #today {
+            background-color: #FF4256;
+        }
+
+        .label-title {
+            background-color: #e5e100;
+        }
+
+        .label-title {
+            color: #000000;
+        }
+    </style>
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/responsive.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/app.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/tablepress-combined.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/tablepress-responsive.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/js_composer.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/formreset.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/formsmain.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/readyclass.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/browsers.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/Defaults.css" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css" media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/style.min(2).css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/headings.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/dual_color.min.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/rich-reviews.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/tooltip-box.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" type="text/css"
+        media="all">
+    <style id="glossary-hint-inline-css" type="text/css">
+        @media (max-device-width: 768px) {
+            .glossary-tooltip-content {
+                display: none;
+            }
+        }
+    </style>
+    <style id="rocket-lazyload-inline-css" type="text/css">
+        .rll-youtube-player {
+            position: relative;
+            padding-bottom: 56.23%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .rll-youtube-player iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            background: 0 0
+        }
+
+        .rll-youtube-player img {
+            bottom: 0;
+            display: block;
+            left: 0;
+            margin: auto;
+            max-width: 100%;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: none;
+            height: auto;
+            cursor: pointer;
+            -webkit-transition: .4s all;
+            -moz-transition: .4s all;
+            transition: .4s all
+        }
+
+        .rll-youtube-player img:hover {
+            -webkit-filter: brightness(75%)
+        }
+
+        .rll-youtube-player .play {
+            height: 72px;
+            width: 72px;
+            left: 50%;
+            top: 50%;
+            margin-left: -36px;
+            margin-top: -36px;
+            position: absolute;
+            background: url(https://www.joeyoungblood.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;
+            cursor: pointer
+        }
+    </style>
+    <script type="text/javascript" id="jquery-core-js-extra">
+        /* <![CDATA[ */
+        var slide_in = { "demo_dir": "https:\/\/www.joeyoungblood.com\/wp-content\/plugins\/convertplug\/modules\/slide_in\/assets\/demos" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/jquery.min.js"
+        id="jquery-core-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/jquery-migrate.min.js"
+        id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/jquery.waypoints.min.js"
+        id="lvca-waypoints-js"></script>
+    <script type="text/javascript" id="lvca-frontend-scripts-js-extra">
+        /* <![CDATA[ */
+        var lvca_settings = { "mobile_width": "780", "custom_css": "" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/lvca-frontend.min.js"
+        id="lvca-frontend-scripts-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/owl.carousel.js"
+        id="iml_owl_carousel_vc-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/isotope.pkgd.min.js"
+        id="iml_jquery_isotope_vc-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/flatpickr.min.js"
+        id="ppress-flatpickr-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/select2.min.js"
+        id="ppress-select2-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/jquery.flexslider.min.js"
+        id="lvca-flexslider-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/testimonials.min.js"
+        id="lvca-testimonials-slider-js"></script>
+    <script type="text/javascript" defer="defer" src="./Crypto Art Consulting - Joe Youngblood_files/jquery.json.min.js"
+        id="gform_json-js"></script>
+    <script type="text/javascript" id="gform_gravityforms-js-extra">
+        /* <![CDATA[ */
+        var gform_i18n = { "datepicker": { "days": { "monday": "Mon", "tuesday": "Tue", "wednesday": "Wed", "thursday": "Thu", "friday": "Fri", "saturday": "Sat", "sunday": "Sun" }, "months": { "january": "January", "february": "February", "march": "March", "april": "April", "may": "May", "june": "June", "july": "July", "august": "August", "september": "September", "october": "October", "november": "November", "december": "December" }, "firstDay": 0 } };
+        var gf_global = { "gf_currency_config": { "name": "U.S. Dollar", "symbol_left": "$", "symbol_right": "", "symbol_padding": "", "thousand_separator": ",", "decimal_separator": ".", "decimals": 2 }, "base_url": "https:\/\/www.joeyoungblood.com\/wp-content\/plugins\/gravityforms", "number_formats": [], "spinnerUrl": "https:\/\/www.joeyoungblood.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg", "strings": { "newRowAdded": "New row added.", "rowRemoved": "Row removed", "formSaved": "The form has been saved.  The content contains the link to return and complete the form." } };
+        var gf_legacy_multi = { "3": "1" };
+        var gf_global = { "gf_currency_config": { "name": "U.S. Dollar", "symbol_left": "$", "symbol_right": "", "symbol_padding": "", "thousand_separator": ",", "decimal_separator": ".", "decimals": 2 }, "base_url": "https:\/\/www.joeyoungblood.com\/wp-content\/plugins\/gravityforms", "number_formats": [], "spinnerUrl": "https:\/\/www.joeyoungblood.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg", "strings": { "newRowAdded": "New row added.", "rowRemoved": "Row removed", "formSaved": "The form has been saved.  The content contains the link to return and complete the form." } };
+        var gf_legacy_multi = { "3": "1", "35": "1" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" id="gform_gravityforms-js-before">
+
+    </script>
+    <script type="text/javascript" defer="defer"
+        src="./Crypto Art Consulting - Joe Youngblood_files/gravityforms.min.js" id="gform_gravityforms-js"></script>
+    <script type="text/javascript" defer="defer" src="./Crypto Art Consulting - Joe Youngblood_files/api(1).js"
+        id="gform_recaptcha-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/ultimate-params.min.js"
+        id="ultimate-vc-params-js"></script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/headings.min.js"
+        id="ultimate-headings-script-js"></script>
+    <script type="text/javascript" id="rich-reviews-js-extra">
+        /* <![CDATA[ */
+        var php_vars = { "excerpt_length": "150", "maybe_some_other_stuff": "Probably Not" };
+        var translation = { "read_more": "Read More", "less": "Less" };
+/* ]]> */
+    </script>
+    <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+        src="./Crypto Art Consulting - Joe Youngblood_files/rich-reviews.js" id="rich-reviews-js"></script>
+    <link rel="https://api.w.org/" href="https://www.joeyoungblood.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://www.joeyoungblood.com/wp-json/wp/v2/pages/5742">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.joeyoungblood.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://www.joeyoungblood.com/wp-includes/wlwmanifest.xml">
+
+    <link rel="shortlink" href="https://www.joeyoungblood.com/?p=5742">
+    <script type="text/javascript">
+        (function () {
+            window.lvca_fs = { can_use_premium_code: false };
+        })();
+    </script>
+    <script type="text/javascript"
+        data-cfasync="false">var _mmunch = { 'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false }; _mmunch['page'] = true; _mmunch['pageData'] = { "ID": 5742, "post_name": "crypto-art-consulting", "post_title": "Crypto Art Consulting", "post_type": "page", "post_author": "1", "post_status": "publish" };</script>
+    <script data-cfasync="false" src="./Crypto Art Consulting - Joe Youngblood_files/site.js" id="mailmunch-script"
+        data-plugin="mc_mm" data-mailmunch-site-id="493064" async=""></script>
+    <!-- Markup (JSON-LD) structured in schema.org ver.4.8.1 START -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Joe Youngblood SEO &amp; Digital Marketing Consulting",
+    "url": "https://www.joeyoungblood.com",
+    "logo": "https://www.joeyoungblood.com/images/logo.png",
+    "sameAs": [
+        "https://www.facebook.com/realjoeyoungblood",
+        "https://twitter.com/youngbloodjoe"
+    ]
+}
+</script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joe Youngblood",
+    "url": "https://www.joeyoungblood.com"
+}
+</script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Joe Youngblood SEO &amp; Digital Marketing Consulting",
+    "image": "https://www.joeyoungblood.com/wp-content/uploads/2017/02/joe-youngblood-scott-peek-4.jpeg",
+    "url": "https://www.joeyoungblood.com",
+    "telephone": "(469) 607-8460",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "6069 Belt Line Rd. Ste. 1064B",
+        "addressLocality": "Dallas",
+        "postalCode": "75254",
+        "addressCountry": "US",
+        "addressRegion": "Texas"
+    }
+}
+</script>
+    <!-- Markup (JSON-LD) structured in schema.org END -->
+    <noscript>
+        <style>
+            .wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper {
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: none !important
+            }
+
+            .wpgb-facet {
+                opacity: 1 !important;
+                pointer-events: auto !important
+            }
+
+            .wpgb-facet *:not(.wpgb-pagination-facet) {
+                display: none
+            }
+        </style>
+    </noscript>
+    <meta name="tec-api-version" content="v1">
+    <meta name="tec-api-origin" content="https://www.joeyoungblood.com">
+    <link rel="https://theeventscalendar.com/" href="https://www.joeyoungblood.com/wp-json/tribe/events/v1/">
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+    <link rel="icon"
+        href="https://www.joeyoungblood.com/wp-content/uploads/2019/02/cropped-joeyoungbloodseo-favicon-512x512-32x32.png"
+        sizes="32x32">
+    <link rel="icon"
+        href="https://www.joeyoungblood.com/wp-content/uploads/2019/02/cropped-joeyoungbloodseo-favicon-512x512-192x192.png"
+        sizes="192x192">
+    <meta name="msapplication-TileImage"
+        content="https://www.joeyoungblood.com/wp-content/uploads/2019/02/cropped-joeyoungbloodseo-favicon-512x512-270x270.png">
+    <style type="text/css" id="wp-custom-css">
+        .vn-navbar .freereview-cus-btn {
+            background: #0000ff;
+            margin: 0 0 0 55px;
+            padding: 0px 0px 0px 0px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .vn-navbar .sf-menu .current-menu-item a,
+        .vn-navbar .sf-menu .current-menu-parent a {
+            color: #FFF;
+        }
+
+        span.rr_star::before {
+            font-family: 'Glyphicons Halflings' !important;
+        }
+
+        .site-main {
+            border: 0;
+            padding: 0 0 0 !important;
+        }
+
+        /*.container-page-content{
+	padding-left:0;
+	padding-right;0;
+	margin-left:0;
+	margin-right:0;
+}*/
+
+        #commentsButton {
+            background-color: #FCDB3A;
+            float: right;
+            min-width: 100px;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 30px 10px 30px;
+        }
+
+        #commentsButton a {
+            color: black;
+        }
+
+        .fa-comments {
+            padding-right: 5px;
+        }
+
+        #commentsWord {
+            padding-left: 5px;
+        }
+    </style>
+    <style type="text/css" data-type="vc_custom-css">
+        .box .vc_column-inner {
+            box-shadow: 0px 0px 6px #bed0ec;
+        }
+
+        .description p {
+            margin-left: 50px;
+            margin-right: 50px;
+            line-height: 1.2 !important;
+            margin: 0 0 0 0;
+            font-size: 16px !important;
+        }
+
+        .inline {
+            float: left !important;
+        }
+
+        .box .vc_column-inner:hover {
+            box-shadow: 0px 8px 5px -4px #ff4256;
+            transition: all 0.3s;
+        }
+
+        .SecondH h1 {
+            letter-spacing: 1.2px;
+            line-height: 1 !important;
+            font-weight: 100 !important;
+            text-shadow: 0.4px 0.4px #000;
+        }
+
+        .SecondH h3 {
+            letter-spacing: 1.2px;
+            font-weight: 100 !important;
+            text-shadow: 0.3px 0.3px #000;
+        }
+
+
+        .entry-header {
+            display: none;
+        }
+
+
+        .ifb-flip-box-section-content p {
+            line-height: 1.2 !important;
+        }
+
+
+        /*Form*/
+
+        nput,
+        input::-webkit-input-placeholder {
+            font-size: 16;
+            line-height: 1;
+        }
+
+        .formTitle h3 {
+            margin: 0px !important;
+        }
+
+        .gfield {
+            margin-top: 4 !important;
+            margin: 0 0 0 0 !important;
+        }
+
+        .ginput_container {
+            margin: 0 0 0 0 !important;
+            padding: 0 0 0 0 !important;
+        }
+
+        .ginput_container input {
+            margin: 0 0 0 0 !important;
+            padding: 1 1 1 1 !important;
+            border: solid 5px #fff;
+            border-radius: 5px;
+        }
+
+        .ginput_container textarea {
+            margin: 0 0 0 0 !important;
+            padding: 1 1 1 1 !important;
+            border: solid 5px #fff;
+            border-radius: 5px;
+        }
+
+        #field_35_7 {
+            display: none !important;
+        }
+
+        body .gform_wrapper .gform_body .gfield_label {
+            font-size: 16px;
+        }
+
+        .gform_wrapper .gform_footer {
+            margin-top: 0 !important;
+            padding: 0 0 0 0 !important;
+            text-align: left;
+        }
+
+        .gform_wrapper span {
+            margin: 0 -4 0 0 !important;
+        }
+
+        .gform_button {
+            margin-top: 0px !important;
+            z-index: 2;
+            width: 110px !important;
+            height: 40px;
+            border-color: #15235c;
+            border-style: solid;
+            border-radius: 5px;
+            background-color: #15225e;
+            color: #fff;
+            border-radius: 15;
+            font-weight: 100 !important;
+            font-family: Fredoka One;
+            letter-spacing: 1.2px;
+        }
+
+        .gform_button:hover {
+            padding-top: 0;
+            background-color: #bed0ec;
+            border-color: #15235c;
+            border-style: solid;
+            border-width: 10px;
+            border-radius: 5px !important;
+            color: #15225e;
+            transition: all 0.3s;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        /*form longer*/
+        #gform_35 {
+            max-width: 450px;
+        }
+
+        .main-content ul li {
+            padding-bottom: 8px !important;
+        }
+
+        .ginput_container {
+            margin-top: 0 !important;
+        }
+
+        /*Post*/
+
+        .vc_grid-item-mini {
+            box-shadow: 0px 0px 6px #bed0ec;
+        }
+
+
+        @media only screen and (min-width: 600px) {
+            body {
+                background-image: url("/wp-content/uploads/2021/03/gravitational-waves-background.jpg");
+                background-size: contain;
+                background-repeat: repeat;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: url("/wp-content/uploads/2021/03/gravitational-waves-lite-background.jpg");
+                background-repeat: repeat;
+                background-size: contain;
+            }
+        }
+
+        .upb_row_bg {
+            border-radius: 10px !important;
+            /*box-shadow: 0px 0px 6px #bed0ec!important;*/
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1618356248033 {
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+            border-right-width: 0px !important;
+            border-left-width: 0px !important;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .vc_custom_1621541329421 {
+            margin-top: 50px !important;
+            margin-bottom: 25px !important;
+            margin-left: 0px !important;
+            border-right-width: 0px !important;
+            border-bottom-width: 0px !important;
+            border-left-width: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+            background-image: url(https://www.joeyoungblood.com/wp-content/uploads/2021/03/bigsky-form-background.png?id=5806) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+        }
+
+        .vc_custom_1621541481605 {
+            margin-top: 50px !important;
+            margin-right: 0px !important;
+            margin-bottom: 10px !important;
+            margin-left: 0px !important;
+            border-top-width: 0px !important;
+            border-right-width: 0px !important;
+            border-bottom-width: 0px !important;
+            border-left-width: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+            background-color: #15235c !important;
+            border-radius: 10px !important;
+        }
+
+        .vc_custom_1618356187878 {
+            margin-top: 25px !important;
+            margin-right: 80px !important;
+            margin-bottom: 0px !important;
+            margin-left: 96px !important;
+            border-top-width: 0px !important;
+            border-right-width: 0px !important;
+            border-bottom-width: 0px !important;
+            border-left-width: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 16px !important;
+            background-image: url(https://www.joeyoungblood.com/wp-content/uploads/2021/03/top-form-bg.png?id=5778) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+        }
+
+        .vc_custom_1621545462944 {
+            margin-top: 25px !important;
+            margin-right: 16px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 5px !important;
+            padding-right: 5px !important;
+            padding-bottom: 0px !important;
+            padding-left: 5px !important;
+        }
+
+        .vc_custom_1621542644157 {
+            margin-top: 15px !important;
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+            border-top-width: 0px !important;
+            border-right-width: 0px !important;
+            border-left-width: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            background-color: #15235c !important;
+            border-radius: 10px !important;
+        }
+
+        .vc_custom_1621545471298 {
+            margin-top: 25px !important;
+            margin-right: 16px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 5px !important;
+            padding-right: 5px !important;
+            padding-bottom: 0px !important;
+            padding-left: 5px !important;
+        }
+
+        .vc_custom_1621541362302 {
+            padding-right: 60px !important;
+            padding-left: 60px !important;
+        }
+
+        .vc_custom_1621541351030 {
+            margin-top: 0px !important;
+            margin-right: 25px !important;
+            border-top-width: 0px !important;
+            border-bottom-width: 0px !important;
+            padding-top: 40px !important;
+            padding-right: px !important;
+            padding-bottom: 0px !important;
+            padding-left: 16px !important;
+        }
+
+        .vc_custom_1621541421473 {
+            margin-right: 16px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 5px !important;
+            padding-right: 5px !important;
+            padding-bottom: 0px !important;
+            padding-left: 5px !important;
+        }
+
+        .vc_custom_1621541454707 {
+            padding-top: 25px !important;
+            padding-bottom: 25px !important;
+        }
+
+        .vc_custom_1621541514887 {
+            padding-top: 20px !important;
+            padding-right: 20px !important;
+            padding-left: 20px !important;
+        }
+
+        .vc_custom_1621541502114 {
+            border-right-width: 20px !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 20px !important;
+        }
+
+        .vc_custom_1621541454707 {
+            padding-top: 25px !important;
+            padding-bottom: 25px !important;
+        }
+    </style><noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript><noscript>
+        <style id="rocket-lazyload-nojs-css">
+            .rll-youtube-player,
+            [data-lazy-src] {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+        (function (w) {
+            "use strict"; if (!w.loadCSS) { w.loadCSS = function () { } }
+            var rp = loadCSS.relpreload = {}; rp.support = (function () {
+                var ret; try { ret = w.document.createElement("link").relList.supports("preload") } catch (e) { ret = !1 }
+                return function () { return ret }
+            })(); rp.bindMediaToggle = function (link) {
+                var finalMedia = link.media || "all"; function enableStylesheet() { link.media = finalMedia }
+                if (link.addEventListener) { link.addEventListener("load", enableStylesheet) } else if (link.attachEvent) { link.attachEvent("onload", enableStylesheet) }
+                setTimeout(function () { link.rel = "stylesheet"; link.media = "only x" }); setTimeout(enableStylesheet, 3000)
+            }; rp.poly = function () {
+                if (rp.support()) { return }
+                var links = w.document.getElementsByTagName("link"); for (var i = 0; i < links.length; i++) { var link = links[i]; if (link.rel === "preload" && link.getAttribute("as") === "style" && !link.getAttribute("data-loadcss")) { link.setAttribute("data-loadcss", !0); rp.bindMediaToggle(link) } }
+            }; if (!rp.support()) { rp.poly(); var run = w.setInterval(rp.poly, 500); if (w.addEventListener) { w.addEventListener("load", function () { rp.poly(); w.clearInterval(run) }) } else if (w.attachEvent) { w.attachEvent("onload", function () { rp.poly(); w.clearInterval(run) }) } }
+            if (typeof exports !== "undefined") { exports.loadCSS = loadCSS }
+            else { w.loadCSS = loadCSS }
+        }(typeof global !== "undefined" ? global : this))
+    </script>
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43221871-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/underscore-min.js"></script>
+
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery-migrate.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery.waypoints.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/lvca-frontend.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/owl.carousel.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/isotope.pkgd.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/flatpickr.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/select2.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery.flexslider.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/testimonials.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/ultimate-params.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/headings.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/rich-reviews.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/underscore-min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/regenerator-runtime.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/wp-polyfill.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/index.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/register-sw.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/script.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/frontend.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/lib.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/init.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/dom-ready.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/hooks.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/i18n.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/a11y.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/off-screen.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/js_composer_front.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/vc-waypoints.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery-appear.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/ultimate_bg.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/custom.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery.json.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/gravityforms.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/api(1).js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/jquery.maskedinput.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/placeholders.jquery.min.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/site.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/platform.js" rel="preload" as="script">
+    <link href="./Crypto Art Consulting - Joe Youngblood_files/count.js" rel="preload" as="script">
+    <script src="./Crypto Art Consulting - Joe Youngblood_files/wp-emoji-release.min.js" type="text/javascript"
+        defer=""></script>
+    <link rel="stylesheet" type="text/css" href="./Crypto Art Consulting - Joe Youngblood_files/styles(1).css">
+    <style>
+        /** Ultimate: Media Responsive **/
+        .uvc-heading.ultimate-heading-5846619c783b70ff7 h1 {
+            font-size: 62px;
+        }
+
+        .ult-dual-color.ultv-693 .ult-dual-heading-text {
+            font-size: 25px;
+            line-height: 1px;
+        }
+
+        .ult-dual-color.ultv-693 .ult-highlight-text {
+            font-size: 25px;
+        }
+
+        .uvc-heading.ultimate-heading-5950619c783b75c0f h1 {
+            font-size: 62px;
+        }
+
+        .ult-dual-color.ultv-839 .ult-dual-heading-text {
+            font-size: 25px;
+            line-height: 1px;
+        }
+
+        .ult-dual-color.ultv-839 .ult-highlight-text {
+            font-size: 25px;
+        }
+
+        .ult-dual-color.ultv-9330 .ult-dual-heading-text {
+            font-size: 30px;
+            line-height: 1px;
+        }
+
+        .ult-dual-color.ultv-9330 .ult-highlight-text {
+            font-size: 30px;
+        }
+
+        .ult-dual-color.ultv-6018 .ult-dual-heading-text {
+            font-size: 30px;
+            line-height: 1px;
+        }
+
+        .ult-dual-color.ultv-6018 .ult-highlight-text {
+            font-size: 30px;
+        }
+
+        @media (max-width: 1199px) {}
+
+        @media (max-width: 991px) {}
+
+        @media (max-width: 767px) {}
+
+        @media (max-width: 479px) {}
+
+        /** Ultimate: Media Responsive - **/
+    </style>
+    <style type="text/css"
+        data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">
+        .fb_hidden {
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+
+        .fb_reposition {
+            overflow: hidden;
+            position: relative
+        }
+
+        .fb_invisible {
+            display: none
+        }
+
+        .fb_reset {
+            background: none;
+            border: 0;
+            border-spacing: 0;
+            color: #000;
+            cursor: auto;
+            direction: ltr;
+            font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size: 11px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 1;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            text-transform: none;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: normal
+        }
+
+        .fb_reset>div {
+            overflow: hidden
+        }
+
+        @keyframes fb_transform {
+            from {
+                opacity: 0;
+                transform: scale(.95)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        .fb_animate {
+            animation: fb_transform .3s forwards
+        }
+
+        .fb_dialog {
+            background: rgba(82, 82, 82, .7);
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+
+        .fb_dialog_advanced {
+            border-radius: 8px;
+            padding: 10px
+        }
+
+        .fb_dialog_content {
+            background: #fff;
+            color: #373737
+        }
+
+        .fb_dialog_close_icon {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+            cursor: pointer;
+            display: block;
+            height: 15px;
+            position: absolute;
+            right: 18px;
+            top: 17px;
+            width: 15px
+        }
+
+        .fb_dialog_mobile .fb_dialog_close_icon {
+            left: 5px;
+            right: auto;
+            top: 5px
+        }
+
+        .fb_dialog_padding {
+            background-color: transparent;
+            position: absolute;
+            width: 1px;
+            z-index: -1
+        }
+
+        .fb_dialog_close_icon:hover {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+        }
+
+        .fb_dialog_close_icon:active {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+        }
+
+        .fb_dialog_iframe {
+            line-height: 0
+        }
+
+        .fb_dialog_content .dialog_title {
+            background: #6d84b4;
+            border: 1px solid #365899;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0
+        }
+
+        .fb_dialog_content .dialog_title>span {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+            float: left;
+            padding: 5px 0 7px 26px
+        }
+
+        body.fb_hidden {
+            height: 100%;
+            left: 0;
+            margin: 0;
+            overflow: visible;
+            position: absolute;
+            top: -10000px;
+            transform: none;
+            width: 100%
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+            min-height: 100%;
+            min-width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 10001
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered {
+            background: none;
+            height: auto;
+            min-height: initial;
+            min-width: initial;
+            width: auto
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+            width: 100%
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+            background: none
+        }
+
+        .loading.centered #fb_dialog_loader_close {
+            clear: both;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            padding-top: 20px
+        }
+
+        #fb-root #fb_dialog_ipad_overlay {
+            background: rgba(0, 0, 0, .4);
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 10000
+        }
+
+        #fb-root #fb_dialog_ipad_overlay.hidden {
+            display: none
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading iframe {
+            visibility: hidden
+        }
+
+        .fb_dialog_mobile .fb_dialog_iframe {
+            position: sticky;
+            top: 0
+        }
+
+        .fb_dialog_content .dialog_header {
+            background: linear-gradient(from(#738aba), to(#2c4987));
+            border-bottom: 1px solid;
+            border-color: #043b87;
+            box-shadow: white 0 1px 1px -1px inset;
+            color: #fff;
+            font: bold 14px Helvetica, sans-serif;
+            text-overflow: ellipsis;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+            vertical-align: middle;
+            white-space: nowrap
+        }
+
+        .fb_dialog_content .dialog_header table {
+            height: 43px;
+            width: 100%
+        }
+
+        .fb_dialog_content .dialog_header td.header_left {
+            font-size: 12px;
+            padding-left: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+
+        .fb_dialog_content .dialog_header td.header_right {
+            font-size: 12px;
+            padding-right: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+
+        .fb_dialog_content .touchable_button {
+            background: linear-gradient(from(#4267B2), to(#2a4887));
+            background-clip: padding-box;
+            border: 1px solid #29487d;
+            border-radius: 3px;
+            display: inline-block;
+            line-height: 18px;
+            margin-top: 3px;
+            max-width: 85px;
+            padding: 4px 12px;
+            position: relative
+        }
+
+        .fb_dialog_content .dialog_header .touchable_button input {
+            background: none;
+            border: none;
+            color: #fff;
+            font: bold 12px Helvetica, sans-serif;
+            margin: 2px -12px;
+            padding: 2px 6px 3px 6px;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+        }
+
+        .fb_dialog_content .dialog_header .header_center {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .fb_dialog_content .dialog_content {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+            border: 1px solid #4a4a4a;
+            border-bottom: 0;
+            border-top: 0;
+            height: 150px
+        }
+
+        .fb_dialog_content .dialog_footer {
+            background: #f5f6f7;
+            border: 1px solid #4a4a4a;
+            border-top-color: #ccc;
+            height: 40px
+        }
+
+        #fb_dialog_loader_close {
+            float: left
+        }
+
+        .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+            visibility: hidden
+        }
+
+        #fb_dialog_loader_spinner {
+            animation: rotateSpinner 1.2s linear infinite;
+            background-color: transparent;
+            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 24px;
+            width: 24px
+        }
+
+        @keyframes rotateSpinner {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        .fb_iframe_widget {
+            display: inline-block;
+            position: relative
+        }
+
+        .fb_iframe_widget span {
+            display: inline-block;
+            position: relative;
+            text-align: justify
+        }
+
+        .fb_iframe_widget iframe {
+            position: absolute
+        }
+
+        .fb_iframe_widget_fluid_desktop,
+        .fb_iframe_widget_fluid_desktop span,
+        .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100%
+        }
+
+        .fb_iframe_widget_fluid_desktop iframe {
+            min-width: 220px;
+            position: relative
+        }
+
+        .fb_iframe_widget_lift {
+            z-index: 1
+        }
+
+        .fb_iframe_widget_fluid {
+            display: inline
+        }
+
+        .fb_iframe_widget_fluid span {
+            width: 100%
+        }
+
+        .fb_mpn_mobile_landing_page_slide_out {
+            animation-duration: 200ms;
+            animation-name: fb_mpn_landing_page_slide_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_landing_page_slide_out_from_left {
+            animation-duration: 200ms;
+            animation-name: fb_mpn_landing_page_slide_out_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_landing_page_slide_up {
+            animation-duration: 500ms;
+            animation-name: fb_mpn_landing_page_slide_up;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_in {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_bounce_in;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_out {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_bounce_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_out_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_fade_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_in_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_in_v2;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_in_from_left {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_in_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_out_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_out_v2;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_out_from_left {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_out_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_invisible_flow {
+            display: inherit;
+            height: 0;
+            overflow-x: hidden;
+            width: 0
+        }
+
+        @keyframes fb_mpn_landing_page_slide_out {
+            0% {
+                margin: 0 12px;
+                width: 100% - 24px
+            }
+
+            60% {
+                border-radius: 18px
+            }
+
+            100% {
+                border-radius: 50%;
+                margin: 0 24px;
+                width: 60px
+            }
+        }
+
+        @keyframes fb_mpn_landing_page_slide_out_from_left {
+            0% {
+                left: 12px;
+                width: 100% - 24px
+            }
+
+            60% {
+                border-radius: 18px
+            }
+
+            100% {
+                border-radius: 50%;
+                left: 12px;
+                width: 60px
+            }
+        }
+
+        @keyframes fb_mpn_landing_page_slide_up {
+            0% {
+                bottom: 0;
+                opacity: 0
+            }
+
+            100% {
+                bottom: 24px;
+                opacity: 1
+            }
+        }
+
+        @keyframes fb_mpn_bounce_in {
+            0% {
+                opacity: .5;
+                top: 100%
+            }
+
+            100% {
+                opacity: 1;
+                top: 0
+            }
+        }
+
+        @keyframes fb_mpn_fade_out {
+            0% {
+                bottom: 30px;
+                opacity: 1
+            }
+
+            100% {
+                bottom: 0;
+                opacity: 0
+            }
+        }
+
+        @keyframes fb_mpn_bounce_out {
+            0% {
+                opacity: 1;
+                top: 0
+            }
+
+            100% {
+                opacity: .5;
+                top: 100%
+            }
+        }
+
+        @keyframes fb_bounce_in_v2 {
+            0% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom right
+            }
+
+            50% {
+                transform: scale(1.03, 1.03);
+                transform-origin: bottom right
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom right
+            }
+        }
+
+        @keyframes fb_bounce_in_from_left {
+            0% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom left
+            }
+
+            50% {
+                transform: scale(1.03, 1.03);
+                transform-origin: bottom left
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom left
+            }
+        }
+
+        @keyframes fb_bounce_out_v2 {
+            0% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom right
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom right
+            }
+        }
+
+        @keyframes fb_bounce_out_from_left {
+            0% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom left
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom left
+            }
+        }
+
+        @keyframes slideInFromBottom {
+            0% {
+                opacity: .1;
+                transform: translateY(100%)
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes slideInFromBottomDelay {
+            0% {
+                opacity: 0;
+                transform: translateY(100%)
+            }
+
+            97% {
+                opacity: 0;
+                transform: translateY(100%)
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+    </style>
+    <link rel="prefetch" href="https://www.joeyoungblood.com/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/about/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/services/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/education/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/contact/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/speaking-reviews/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/dallas-seo/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/houston-seo/">
+    <link rel="prefetch" href="https://www.joeyoungblood.com/privacy-policy/">
+</head>
+
+
+<body data-rsssl="1"
+    class="page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-5742 tribe-js vn-post-page page-full sticky-nav wpb-js-composer js-comp-ver-6.7.0 vc_responsive">
+    <div class="slide-mobmenu"></div>
+    <div class="overmb"></div>
+    <div id="vn-page">
+        <div class="container-header container">
+            <div id="vn-header" class="append">
+
+                <div class="vn-logo">
+                    <h1 class="logo vn-logo"><a href="https://joe-crypto.github.io/" title="Joe Youngblood"
+                            rel="home">Joe Crypto</a></h1>
+                    <a id="vn-btnav" class="menu-button hidden-lg"><span></span></a>
+                </div> <!-- /vn-logo -->
+
+                <div class="mini-icons prep-content"><a href="https://twitter.com/youngbloodjoe"><i
+                            class="icon-twitter"><span class="vn_linknm">twitter</span></i></a><a
+                        href="https://www.facebook.com/joeyoungbloodseoconsulting"><i class="icon-facebook"><span
+                                class="vn_linknm">facebook</span></i></a><a
+                        href="https://www.instagram.com/thejoeyoungblood/"><i class="icon-instagram"><span
+                                class="vn_linknm">instagram</span></i></a><a
+                        href="https://www.youtube.com/channel/UCdz4V4gsLsDy_RC7Fl-bRWA"><i class="icon-youtube"><span
+                                class="vn_linknm">youtube</span></i></a><a href="https://www.joeyoungblood.com/feed/"><i
+                            class="icon-feed"><span class="vn_linknm">feed</span></i></a></div> <!-- /mini-icons -->
+
+
+
+
+            </div> <!-- /vn-header -->
+        </div> <!-- /container-header -->
+
+
+
+        <div id="vn-wrap" class="top-wrap">
+            <div class="container container-page-content">
+
+
+                <div id="primary" class="content-area">
+
+                    <main id="main" class="site-main main-content" role="main">
+
+                        <article id="post-5742" class="post-5742 page type-page status-publish hentry no-thumb">
+                            <header class="entry-header cross-line">
+                                <div class="featured-media">
+                                </div>
+                                <h1 class="entry-title">Crypto Art Consulting</h1>
+                            </header>
+                            <!--/entry-header -->
+
+                            <div class="entry-content">
+                                <div class="mailmunch-forms-before-post" style="display: none !important;"></div>
+                                <div class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-top vc_row-flex ult-vc-hide-row vc_row-has-fill uvc_hidden-md uvc_hidden-sm uvc_hidden-xs uvc_hidden-xsl"
+                                    data-hide-row=" uvc_hidden-md  uvc_hidden-sm  uvc_hidden-xs  uvc_hidden-xsl "
+                                    data-rtl="false" style="position: relative;" data-row-effect-mobile-disable="true">
+                                    <div class="upb_row_bg" data-bg-override="0"
+                                        style="min-width: 1170px; left: 0px; width: 1170px;"></div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div id="ultimate-heading-5846619c783b70ff7"
+                                                    class="uvc-heading ult-adjust-bottom-margin ultimate-heading-5846619c783b70ff7 uvc-134 SecondH"
+                                                    data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+                                                    <div class="uvc-heading-spacer no_spacer" style="top"></div>
+                                                    <div class="uvc-main-heading ult-responsive"
+                                                        data-ultimate-target=".uvc-heading.ultimate-heading-5846619c783b70ff7 h1"
+                                                        data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:62px;&quot;,&quot;line-height&quot;:&quot;&quot;}">
+                                                        <h1
+                                                            style="font-weight:normal;color:#15235c;margin-top:25px;margin-bottom:15px;">
+                                                            Crypto Art Consulting</h1>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p>Get your digital artwork on the blockchain as non-fungible
+                                                            tokens, sell it, and grow your brand with the world’s first
+                                                            crypto art consulting agency.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div><!-- Row Backgrounds -->
+                                <div class="vc_row wpb_row vc_row-fluid vc_custom_1618356248033 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-top vc_row-flex ult-vc-hide-row uvc_hidden-lg uvc_hidden-ml"
+                                    data-hide-row=" uvc_hidden-lg  uvc_hidden-ml " data-rtl="false"
+                                    style="position: relative;" data-row-effect-mobile-disable="true">
+                                    <div class="upb_row_bg" data-bg-override="0"
+                                        style="min-width: 0px; left: 0px; width: 0px;"></div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div id="ultimate-heading-5950619c783b75c0f"
+                                                    class="uvc-heading ult-adjust-bottom-margin ultimate-heading-5950619c783b75c0f uvc-8741 SecondH"
+                                                    data-hspacer="no_spacer" data-halign="left" style="text-align:left">
+                                                    <div class="uvc-heading-spacer no_spacer" style="top"></div>
+                                                    <div class="uvc-main-heading ult-responsive"
+                                                        data-ultimate-target=".uvc-heading.ultimate-heading-5950619c783b75c0f h1"
+                                                        data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:62px;&quot;,&quot;line-height&quot;:&quot;&quot;}">
+                                                        <h1
+                                                            style="font-weight:normal;color:#15235c;margin-top:25px;margin-bottom:15px;">
+                                                            Crypto Art Consulting</h1>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p>Get your digital artwork on the blockchain as non-fungible
+                                                            tokens, sell it, and grow your brand with the world’s first
+                                                            crypto art consulting agency.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill wpb_start_animation animated">
+                                        <div class="vc_column-inner vc_custom_1621542644157">
+                                            <div class="wpb_wrapper">
+                                                <div id="ultv-839"
+                                                    class="ult-dual-color ult-adjust-bottom-margin ult-dual-color-responsive-none ultv-839 formTitle  vc_custom_1621545471298">
+                                                    <div class="ult-module-content ult-dual-color-heading"
+                                                        style="text-align:left;">
+                                                        <h3><span class="ult-before-heading">
+                                                                <span
+                                                                    class="ult-dual-heading-text ult-first-text ult-responsive"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-839 .ult-dual-heading-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:25px;&quot;,&quot;line-height&quot;:&quot;desktop:1px;&quot;}"
+                                                                    style="color:#ffffff;     border:none; font-weight:normal;">Get
+                                                                    a</span>
+                                                            </span><span class="ult-adv-heading" style="">
+                                                                <span
+                                                                    class="ult-dual-adv-heading-text ult-highlight-text ult-responsive"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-839 .ult-highlight-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:25px;&quot;,&quot;line-height&quot;:&quot;&quot;}"
+                                                                    style="color:#ff4255;     border:none; font-weight:normal;">FREE</span>
+                                                            </span><span class="ult-after-heading">
+                                                                <span class="ult-dual-heading-text ult-third-text"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-839 .ult-dual-heading-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:25px;&quot;,&quot;line-height&quot;:&quot;desktop:1px;&quot;}"
+                                                                    style="color:#ffffff;     border:none; font-weight:normal;">Crypto
+                                                                    Art quote</span>
+                                                            </span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper"
+                                                    id="gform_wrapper_3">
+                                                    <div id="gf_3" class="gform_anchor" tabindex="-1"></div>
+                                                    <form method="post" enctype="multipart/form-data"
+                                                        target="gform_ajax_frame_3" id="gform_3"
+                                                        action="https://www.joeyoungblood.com/crypto-art-consulting/#gf_3">
+                                                        <input type="hidden" class="gforms-pum"
+                                                            value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}">
+                                                        <div class="gform_body gform-body">
+                                                            <ul id="gform_fields_3"
+                                                                class="gform_fields top_label form_sublabel_below description_below">
+                                                                <li id="field_3_1"
+                                                                    class="gfield gfield_contains_required field_sublabel_hidden_label field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label
+                                                                        class="gfield_label screen-reader-text gfield_label_before_complex"><span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name"
+                                                                        id="input_3_1">
+
+                                                                        <span id="input_3_1_3_container"
+                                                                            class="name_first">
+                                                                            <input type="text" name="input_1.3"
+                                                                                id="input_3_1_3" value=""
+                                                                                aria-label="First name"
+                                                                                aria-required="true"
+                                                                                placeholder="First Name">
+                                                                            <label for="input_3_1_3"
+                                                                                class="hidden_sub_label screen-reader-text">First
+                                                                                Name</label>
+                                                                        </span>
+
+                                                                        <span id="input_3_1_6_container"
+                                                                            class="name_last">
+                                                                            <input type="text" name="input_1.6"
+                                                                                id="input_3_1_6" value=""
+                                                                                aria-label="Last name"
+                                                                                aria-required="true"
+                                                                                placeholder="Last Name">
+                                                                            <label for="input_3_1_6"
+                                                                                class="hidden_sub_label screen-reader-text">Last
+                                                                                Name</label>
+                                                                        </span>
+
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_3_2"
+                                                                    class="gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label screen-reader-text"
+                                                                        for="input_3_2">Phone Number<span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_phone">
+                                                                        <input name="input_2" id="input_3_2" type="text"
+                                                                            value="" class="medium"
+                                                                            placeholder="Phone Number"
+                                                                            aria-required="true" aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_3_3"
+                                                                    class="gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label screen-reader-text"
+                                                                        for="input_3_3">Email<span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_email">
+                                                                        <input name="input_3" id="input_3_3" type="text"
+                                                                            value="" class="medium" placeholder="Email"
+                                                                            aria-required="true" aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_3_4"
+                                                                    class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label screen-reader-text"
+                                                                        for="input_3_4">https://YourWebsite.com<span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_website">
+                                                                        <input name="input_4" id="input_3_4" type="text"
+                                                                            value="" class="large"
+                                                                            placeholder="https://YourWebsite.com"
+                                                                            aria-required="true" aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_3_5"
+                                                                    class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label screen-reader-text"
+                                                                        for="input_3_5">Additional Information About
+                                                                        Your Project<span class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_textarea">
+                                                                        <textarea name="input_5" id="input_3_5"
+                                                                            class="textarea small"
+                                                                            placeholder="Additional Information About Your Project"
+                                                                            aria-required="true" aria-invalid="false"
+                                                                            rows="10" cols="50"></textarea></div>
+                                                                </li>
+                                                                <li id="field_3_6"
+                                                                    class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
+                                                                    <div class="ginput_container ginput_container_text">
+                                                                        <input name="input_6" id="input_3_6"
+                                                                            type="hidden" class="gform_hidden"
+                                                                            aria-invalid="false"
+                                                                            value="Crypto Art Consulting: https://www.joeyoungblood.com/crypto-art-consulting/">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_3_7"
+                                                                    class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible">
+                                                                    <label class="gfield_label"
+                                                                        for="input_3_7">Name</label>
+                                                                    <div class="ginput_container"><input name="input_7"
+                                                                            id="input_3_7" type="text" value=""></div>
+                                                                    <div class="gfield_description"
+                                                                        id="gfield_description_3_7">This field is for
+                                                                        validation purposes and should be left
+                                                                        unchanged.</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="gform_footer top_label"> <input type="submit"
+                                                                id="gform_submit_button_3" class="gform_button button"
+                                                                value="Submit"
+                                                                onclick="if(window[&quot;gf_submitting_3&quot;]){return false;}  window[&quot;gf_submitting_3&quot;]=true;  "
+                                                                onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_3&quot;]){return false;} window[&quot;gf_submitting_3&quot;]=true;  jQuery(&quot;#gform_3&quot;).trigger(&quot;submit&quot;,[true]); }">
+                                                            <input type="hidden" name="gform_ajax"
+                                                                value="form_id=3&amp;title=&amp;description=&amp;tabindex=0">
+                                                            <input type="hidden" class="gform_hidden" name="is_submit_3"
+                                                                value="1">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_submit" value="3">
+
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_unique_id" value="">
+                                                            <input type="hidden" class="gform_hidden" name="state_3"
+                                                                value="WyJbXSIsImVjYTUxZDA5OTY2YWRhMzM2YTNlYWQ4MTIzN2ZjMzY1Il0=">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_target_page_number_3"
+                                                                id="gform_target_page_number_3" value="0">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_source_page_number_3"
+                                                                id="gform_source_page_number_3" value="1">
+                                                            <input type="hidden" name="gform_field_values" value="">
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <iframe style="display:none;width:0px;height:0px;"
+                                                    src="./Crypto Art Consulting - Joe Youngblood_files/saved_resource(2).html"
+                                                    name="gform_ajax_frame_3" id="gform_ajax_frame_3"
+                                                    title="This iframe contains the logic required to handle Ajax powered Gravity Forms."></iframe>
+                                                <script type="text/javascript">
+                                                    gform.initializeOnLoaded(function () { gformInitSpinner(3, 'https://www.joeyoungblood.com/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery('#gform_ajax_frame_3').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_3'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_3').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_3').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_3').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_3').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_3').offset().top - mt); }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_3').val(); gformInitSpinner(3, 'https://www.joeyoungblood.com/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery(document).trigger('gform_page_loaded', [3, current_page]); window['gf_submitting_3'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } setTimeout(function () { jQuery('#gform_wrapper_3').replaceWith(confirmation_content); jQuery(document).scrollTop(jQuery('#gf_3').offset().top - mt); jQuery(document).trigger('gform_confirmation_loaded', [3]); window['gf_submitting_3'] = false; wp.a11y.speak(jQuery('#gform_confirmation_message_3').text()); }, 50); } else { jQuery('#gform_3').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger('gform_post_render', [3, current_page]); }); });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- Row Backgrounds -->
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p>Since late 2020 we have helped dozens of brands and artists
+                                                            get their artwork minted and listed on NFT platforms. There
+                                                            are a lot of benefits to being on Crypto Art platforms right
+                                                            now for a brand far beyond the measurable sales you can
+                                                            generate from artistic recreations of your iconic brand
+                                                            imagery.</p>
+                                                        <p>For artists NFT’s offer an entirely new way to get rewarded
+                                                            for making art people love by taking a commission on future
+                                                            sales of your artwork.</p>
+                                                        <div class="mailmunch-forms-in-post-middle"
+                                                            style="display: none !important;"></div>
+                                                        <p>Our consulting services will help you get your artwork
+                                                            minted, get your wallet and accounts set up, get your work
+                                                            listed on platforms, and gain sales. </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="vc_row wpb_row vc_row-fluid vc_custom_1621541481605 vc_row-has-fill ult-vc-hide-row uvc_hidden-lg uvc_hidden-ml"
+                                    data-hide-row=" uvc_hidden-lg  uvc_hidden-ml " data-rtl="false"
+                                    style="position: relative;" data-row-effect-mobile-disable="true">
+                                    <div class="upb_row_bg" data-bg-override="0"
+                                        style="min-width: 0px; left: 0px; width: 0px;"></div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner vc_custom_1621541514887">
+                                            <div class="wpb_wrapper">
+                                                <div id="ultv-6018"
+                                                    class="ult-dual-color ult-adjust-bottom-margin ult-dual-color-responsive-none ultv-6018  ">
+                                                    <div class="ult-module-content ult-dual-color-heading"
+                                                        style="text-align:left;">
+                                                        <h3><span class="ult-before-heading">
+                                                                <span
+                                                                    class="ult-dual-heading-text ult-first-text ult-responsive"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-6018 .ult-dual-heading-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:30px;&quot;,&quot;line-height&quot;:&quot;desktop:1px;&quot;}"
+                                                                    style="color:#ffffff;     border:none; font-weight:normal;">Tell
+                                                                    us about your</span>
+                                                            </span><span class="ult-adv-heading" style="">
+                                                                <span
+                                                                    class="ult-dual-adv-heading-text ult-highlight-text ult-responsive"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-6018 .ult-highlight-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:30px;&quot;,&quot;line-height&quot;:&quot;&quot;}"
+                                                                    style="color:#ff4255;     border:none; font-weight:normal;">Crypto
+                                                                    Art project</span>
+                                                            </span><span class="ult-after-heading">
+                                                                <span class="ult-dual-heading-text ult-third-text"
+                                                                    data-ultimate-target=".ult-dual-color.ultv-6018 .ult-dual-heading-text"
+                                                                    data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:30px;&quot;,&quot;line-height&quot;:&quot;desktop:1px;&quot;}"
+                                                                    style="color:#ffffff;     border:none; font-weight:normal;">and
+                                                                    get a free quote.</span>
+                                                            </span></h3>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_60 vc_sep_border_width_5 vc_sep_pos_align_left vc_separator_no_text vc_custom_1621541454707  vc_custom_1621541454707">
+                                                    <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            style="border-color:#ff4255;"
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            style="border-color:#ff4255;"
+                                                            class="vc_sep_line"></span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+                                        <div class="vc_column-inner vc_custom_1621541502114">
+                                            <div class="wpb_wrapper">
+                                                <div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper"
+                                                    id="gform_wrapper_35">
+                                                    <div id="gf_35" class="gform_anchor" tabindex="-1"></div>
+                                                    <form method="post" enctype="multipart/form-data"
+                                                        target="gform_ajax_frame_35" id="gform_35"
+                                                        action="https://www.joeyoungblood.com/crypto-art-consulting/#gf_35">
+                                                        <input type="hidden" class="gforms-pum"
+                                                            value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}">
+                                                        <div class="gform_body gform-body">
+                                                            <ul id="gform_fields_35"
+                                                                class="gform_fields top_label form_sublabel_below description_below">
+                                                                <li id="field_35_1"
+                                                                    class="gfield gfield_contains_required field_sublabel_hidden_label field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label
+                                                                        class="gfield_label gfield_label_before_complex">Your
+                                                                        Name<span class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name"
+                                                                        id="input_35_1">
+
+                                                                        <span id="input_35_1_3_container"
+                                                                            class="name_first">
+                                                                            <input type="text" name="input_1.3"
+                                                                                id="input_35_1_3" value=""
+                                                                                aria-label="First name"
+                                                                                aria-required="true"
+                                                                                placeholder="First Name">
+                                                                            <label for="input_35_1_3"
+                                                                                class="hidden_sub_label screen-reader-text">First</label>
+                                                                        </span>
+
+                                                                        <span id="input_35_1_6_container"
+                                                                            class="name_last">
+                                                                            <input type="text" name="input_1.6"
+                                                                                id="input_35_1_6" value=""
+                                                                                aria-label="Last name"
+                                                                                aria-required="true"
+                                                                                placeholder="Last Name">
+                                                                            <label for="input_35_1_6"
+                                                                                class="hidden_sub_label screen-reader-text">Last</label>
+                                                                        </span>
+
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_2"
+                                                                    class="gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label" for="input_35_2">Phone
+                                                                        Number<span class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_phone">
+                                                                        <input name="input_2" id="input_35_2"
+                                                                            type="text" value="" class="medium"
+                                                                            placeholder="Phone Number"
+                                                                            aria-required="true" aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_3"
+                                                                    class="gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label"
+                                                                        for="input_35_3">Email<span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_email">
+                                                                        <input name="input_3" id="input_35_3"
+                                                                            type="text" value="" class="medium"
+                                                                            placeholder="Email" aria-required="true"
+                                                                            aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_8"
+                                                                    class="gfield gf_left_half field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label" for="input_35_8">Company
+                                                                        Name</label>
+                                                                    <div class="ginput_container ginput_container_text">
+                                                                        <input name="input_8" id="input_35_8"
+                                                                            type="text" value="" class="medium"
+                                                                            placeholder="Company Name"
+                                                                            aria-invalid="false"> </div>
+                                                                </li>
+                                                                <li id="field_35_4"
+                                                                    class="gfield gf_right_half field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label" for="input_35_4">Your
+                                                                        Website</label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_website">
+                                                                        <input name="input_4" id="input_35_4"
+                                                                            type="text" value="" class="medium"
+                                                                            placeholder="https://YourWebsite.com"
+                                                                            aria-invalid="false">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_5"
+                                                                    class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
+                                                                    <label class="gfield_label" for="input_35_5">Tell Us
+                                                                        About Your Art or Ask Questions About NFTs<span
+                                                                            class="gfield_required"><span
+                                                                                class="gfield_required gfield_required_asterisk">*</span></span></label>
+                                                                    <div
+                                                                        class="ginput_container ginput_container_textarea">
+                                                                        <textarea name="input_5" id="input_35_5"
+                                                                            class="textarea medium"
+                                                                            placeholder="Tell Us About Your Art or Ask Questions About NFTs"
+                                                                            aria-required="true" aria-invalid="false"
+                                                                            rows="10" cols="50"></textarea></div>
+                                                                </li>
+                                                                <li id="field_35_7"
+                                                                    class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
+                                                                    <label class="gfield_label screen-reader-text"
+                                                                        for="input_35_7"></label>
+                                                                    <div id="input_35_7"
+                                                                        class="ginput_container ginput_recaptcha"
+                                                                        data-sitekey="6Lf6lbcZAAAAAM0jbwBF8ik8FsRzVcnGKTgmyqf-"
+                                                                        data-theme="light" data-tabindex="-1"
+                                                                        data-size="invisible" data-badge="bottomright">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_6"
+                                                                    class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
+                                                                    <div class="ginput_container ginput_container_text">
+                                                                        <input name="input_6" id="input_35_6"
+                                                                            type="hidden" class="gform_hidden"
+                                                                            aria-invalid="false"
+                                                                            value="Crypto Art Consulting: https://www.joeyoungblood.com/crypto-art-consulting/">
+                                                                    </div>
+                                                                </li>
+                                                                <li id="field_35_9"
+                                                                    class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible">
+                                                                    <label class="gfield_label"
+                                                                        for="input_35_9">Email</label>
+                                                                    <div class="ginput_container"><input name="input_9"
+                                                                            id="input_35_9" type="text" value=""></div>
+                                                                    <div class="gfield_description"
+                                                                        id="gfield_description_35_9">This field is for
+                                                                        validation purposes and should be left
+                                                                        unchanged.</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="gform_footer top_label"> <input type="submit"
+                                                                id="gform_submit_button_35" class="gform_button button"
+                                                                value="Submit"
+                                                                onclick="if(window[&quot;gf_submitting_35&quot;]){return false;}  window[&quot;gf_submitting_35&quot;]=true;  "
+                                                                onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_35&quot;]){return false;} window[&quot;gf_submitting_35&quot;]=true;  jQuery(&quot;#gform_35&quot;).trigger(&quot;submit&quot;,[true]); }">
+                                                            <input type="hidden" name="gform_ajax"
+                                                                value="form_id=35&amp;title=&amp;description=&amp;tabindex=0">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="is_submit_35" value="1">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_submit" value="35">
+
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_unique_id" value="">
+                                                            <input type="hidden" class="gform_hidden" name="state_35"
+                                                                value="WyJbXSIsImVjYTUxZDA5OTY2YWRhMzM2YTNlYWQ4MTIzN2ZjMzY1Il0=">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_target_page_number_35"
+                                                                id="gform_target_page_number_35" value="0">
+                                                            <input type="hidden" class="gform_hidden"
+                                                                name="gform_source_page_number_35"
+                                                                id="gform_source_page_number_35" value="1">
+                                                            <input type="hidden" name="gform_field_values" value="">
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <iframe style="display:none;width:0px;height:0px;"
+                                                    src="./Crypto Art Consulting - Joe Youngblood_files/saved_resource(5).html"
+                                                    name="gform_ajax_frame_35" id="gform_ajax_frame_35"
+                                                    title="This iframe contains the logic required to handle Ajax powered Gravity Forms."></iframe>
+                                                <script type="text/javascript">
+                                                    gform.initializeOnLoaded(function () { gformInitSpinner(35, 'https://www.joeyoungblood.com/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery('#gform_ajax_frame_35').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_35'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_35').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_35').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_35').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_35').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_35').offset().top - mt); }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_35').val(); gformInitSpinner(35, 'https://www.joeyoungblood.com/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery(document).trigger('gform_page_loaded', [35, current_page]); window['gf_submitting_35'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } setTimeout(function () { jQuery('#gform_wrapper_35').replaceWith(confirmation_content); jQuery(document).scrollTop(jQuery('#gf_35').offset().top - mt); jQuery(document).trigger('gform_confirmation_loaded', [35]); window['gf_submitting_35'] = false; wp.a11y.speak(jQuery('#gform_confirmation_message_35').text()); }, 50); } else { jQuery('#gform_35').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger('gform_post_render', [35, current_page]); }); });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- Row Backgrounds -->
+                                <span class="cp-load-after-post"></span>
+                                <p></p>
+                                <div class="mailmunch-forms-after-post" style="display: none !important;"></div>
+                            </div>
+                            <!--/entry-content -->
+                        </article>
+
+
+                    </main>
+                    <!--/main-->
+                </div>
+                <!--/primary-->
+
+
+            </div> <!-- /container-page-content-->
+
+
+            <div id="footer">
+                <div class="container footer-container">
+
+                    <nav class="vn-navbar btm-nav">
+                    </nav>
+
+                    <div id="vn-footer" class="omega">
+                        <div class="row footer-cols">
+
+                            <div class="logo-section col-md-4 footer-col">
+                            </div>
+                            <hr class="border-push col-md-push-4 visible-md visible-lg"> <!-- /col-1 -->
+
+
+                            <div class="col-md-4 footer-col second-col">
+                                <h2 class="logo-footer"><a href="https://joe-crypto.github.io/" title="Joe Youngblood"
+                                        rel="home">Joe Ctypto</a></h2>
+
+                                <p class="site-description"></p>
+
+                                <aside id="text-6" class="vn-itm-reveal widget widget_text">
+                                    <div class="textwidget">
+                                        <div itemscope="" itemtype="http://schema.org/Service">
+                                            <meta itemprop="serviceType" content="SEO Service">
+                                            <div itemscope="" itemtype="http://schema.org/LocalBusiness">
+                                                <div><a href="mailto:joeCryptoArt@gmail.com">joeCryptoArt@gmail.com</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                                <div class="unroll">
+                                    <p class="copy"></p>
+                                </div>
+                            </div> <!-- /col-2 -->
+                            <hr class="border-push col-md-push-8 visible-md visible-lg">
+
+
+                            <div class="col-md-4 last-col footer-col">
+                            </div> <!-- /col-3 -->
+                        </div>
+                        © 2021 - All Rights Reserved
+                    </div>
+                </div>
+            </div> <!-- /Footer Container -->
+
+            <!--[if lt IE 9]>
+<script src="https://www.joeyoungblood.com/wp-content/themes/vania/js/excanvas.js"></script>
+<script src="https://www.joeyoungblood.com/wp-content/themes/vania/js/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+            <script type="text/javascript" id="modal">
+                document.addEventListener("DOMContentLoaded", function () {
+                    startclock();
+                });
+                function stopclock() {
+                    if (timerRunning) clearTimeout(timerID);
+                    timerRunning = false;
+                    //document.cookie="time=0";
+                }
+                function showtime() {
+                    var now = new Date();
+                    var my = now.getTime();
+                    now = new Date(my - diffms);
+                    //document.cookie="time="+now.toLocaleString();
+                    timerID = setTimeout('showtime()', 10000);
+                    timerRunning = true;
+                }
+                function startclock() {
+                    stopclock();
+                    showtime();
+                }
+                var timerID = null;
+                var timerRunning = false;
+                var x = new Date();
+                var now = x.getTime();
+                var gmt = 1637644347 * 1000;
+                var diffms = (now - gmt);
+            </script>
+            <script type="text/javascript" id="info-bar">
+                document.addEventListener("DOMContentLoaded", function () {
+                    startclock();
+                });
+                function stopclock() {
+                    if (timerRunning) clearTimeout(timerID);
+                    timerRunning = false;
+                    //document.cookie="time=0";
+                }
+                function showtime() {
+                    var now = new Date();
+                    var my = now.getTime();
+                    now = new Date(my - diffms);
+                    //document.cookie="time="+now.toLocaleString();
+                    timerID = setTimeout('showtime()', 10000);
+                    timerRunning = true;
+                }
+                function startclock() {
+                    stopclock();
+                    showtime();
+                }
+                var timerID = null;
+                var timerRunning = false;
+                var x = new Date();
+                var now = x.getTime();
+                var gmt = 1637644347 * 1000;
+                var diffms = (now - gmt);
+            </script>
+            <script type="text/javascript" id="slidein">
+                document.addEventListener("DOMContentLoaded", function () {
+                    startclock();
+                });
+                function stopclock() {
+                    if (timerRunning) clearTimeout(timerID);
+                    timerRunning = false;
+                    //document.cookie="time=0";
+                }
+
+                function showtime() {
+                    var now = new Date();
+                    var my = now.getTime();
+                    now = new Date(my - diffms);
+                    //document.cookie="time="+now.toLocaleString();
+                    timerID = setTimeout('showtime()', 10000);
+                    timerRunning = true;
+                }
+
+                function startclock() {
+                    stopclock();
+                    showtime();
+                }
+                var timerID = null;
+                var timerRunning = false;
+                var x = new Date();
+                var now = x.getTime();
+                var gmt = 1637644347 * 1000;
+                var diffms = (now - gmt);
+            </script>
+            <script>
+                (function (body) {
+                    'use strict';
+                    body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+                })(document.body);
+            </script>
+            <script> /* <![CDATA[ */var tribe_l10n_datatables = { "aria": { "sort_ascending": ": activate to sort column ascending", "sort_descending": ": activate to sort column descending" }, "length_menu": "Show _MENU_ entries", "empty_table": "No data available in table", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "info_empty": "Showing 0 to 0 of 0 entries", "info_filtered": "(filtered from _MAX_ total entries)", "zero_records": "No matching records found", "search": "Search:", "all_selected_text": "All items on this page were selected. ", "select_all_link": "Select all pages", "clear_selection": "Clear Selection.", "pagination": { "all": "All", "next": "Next", "previous": "Previous" }, "select": { "rows": { "0": "", "_": ": Selected %d rows", "1": ": Selected 1 row" } }, "datepicker": { "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Prev", "currentText": "Today", "closeText": "Done", "today": "Today", "clear": "Clear" } };/* ]]> */</script>
+            <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/animate.min.css"
+                data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;"
+                type="text/css" media="all">
+            <link rel="stylesheet" href="./Crypto Art Consulting - Joe Youngblood_files/background-style.min.css"
+                data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;"
+                type="text/css" media="all">
+            <script type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/regenerator-runtime.min.js"
+                id="regenerator-runtime-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/wp-polyfill.min.js"
+                id="wp-polyfill-js"></script>
+            <script type="text/javascript" id="contact-form-7-js-extra">
+                /* <![CDATA[ */
+                var wpcf7 = { "api": { "root": "https:\/\/www.joeyoungblood.com\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+/* ]]> */
+            </script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/index.js"
+                id="contact-form-7-js"></script>
+            <script type="text/javascript" id="superpwa-register-sw-js-extra">
+                /* <![CDATA[ */
+                var superpwa_sw = { "url": "\/superpwa-sw.js", "disable_addtohome": "0", "enableOnDesktop": "" };
+/* ]]> */
+            </script>
+            <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/register-sw.js"
+                id="superpwa-register-sw-js"></script>
+            <script type="text/javascript" id="awsm-job-scripts-js-extra">
+                /* <![CDATA[ */
+                var awsmJobsPublic = { "ajaxurl": "https:\/\/www.joeyoungblood.com\/wp-admin\/admin-ajax.php", "is_tax_archive": "", "is_search": "", "job_id": "0", "wp_max_upload_size": "536870912", "i18n": { "loading_text": "Loading...", "form_error_msg": { "general": "Error in submitting your application. Please try again later!", "file_validation": "The file you have selected is too large." } } };
+/* ]]> */
+            </script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/script.min.js"
+                id="awsm-job-scripts-js"></script>
+            <script type="text/javascript" id="ppress-frontend-script-js-extra">
+                /* <![CDATA[ */
+                var pp_ajax_form = { "ajaxurl": "https:\/\/www.joeyoungblood.com\/wp-admin\/admin-ajax.php", "confirm_delete": "Are you sure?", "deleting_text": "Deleting...", "deleting_error": "An error occurred. Please try again.", "nonce": "7e0d5a0bd7", "disable_ajax_form": "false" };
+/* ]]> */
+            </script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/frontend.min.js"
+                id="ppress-frontend-script-js"></script>
+            <script type="text/javascript" id="rocket-browser-checker-js-after">
+                "use strict"; var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || !1, descriptor.configurable = !0, "value" in descriptor && (descriptor.writable = !0), Object.defineProperty(target, descriptor.key, descriptor) } } return function (Constructor, protoProps, staticProps) { return protoProps && defineProperties(Constructor.prototype, protoProps), staticProps && defineProperties(Constructor, staticProps), Constructor } }(); function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function") } var RocketBrowserCompatibilityChecker = function () { function RocketBrowserCompatibilityChecker(options) { _classCallCheck(this, RocketBrowserCompatibilityChecker), this.passiveSupported = !1, this._checkPassiveOption(this), this.options = !!this.passiveSupported && options } return _createClass(RocketBrowserCompatibilityChecker, [{ key: "_checkPassiveOption", value: function (self) { try { var options = { get passive() { return !(self.passiveSupported = !0) } }; window.addEventListener("test", null, options), window.removeEventListener("test", null, options) } catch (err) { self.passiveSupported = !1 } } }, { key: "initRequestIdleCallback", value: function () { !1 in window && (window.requestIdleCallback = function (cb) { var start = Date.now(); return setTimeout(function () { cb({ didTimeout: !1, timeRemaining: function () { return Math.max(0, 50 - (Date.now() - start)) } }) }, 1) }), !1 in window && (window.cancelIdleCallback = function (id) { return clearTimeout(id) }) } }, { key: "isDataSaverModeOn", value: function () { return "connection" in navigator && !0 === navigator.connection.saveData } }, { key: "supportsLinkPrefetch", value: function () { var elem = document.createElement("link"); return elem.relList && elem.relList.supports && elem.relList.supports("prefetch") && window.IntersectionObserver && "isIntersecting" in IntersectionObserverEntry.prototype } }, { key: "isSlowConnection", value: function () { return "connection" in navigator && "effectiveType" in navigator.connection && ("2g" === navigator.connection.effectiveType || "slow-2g" === navigator.connection.effectiveType) } }]), RocketBrowserCompatibilityChecker }();
+            </script>
+            <script type="text/javascript" id="rocket-preload-links-js-extra">
+                /* <![CDATA[ */
+                var RocketPreloadLinksConfig = { "excludeUris": "\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php", "usesTrailingSlash": "1", "imageExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif", "fileExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm", "siteUrl": "https:\/\/www.joeyoungblood.com", "onHoverDelay": "100", "rateThrottle": "3" };
+/* ]]> */
+            </script>
+            <script type="text/javascript" id="rocket-preload-links-js-after">
+                (function () {
+                    "use strict"; var r = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (e) { return typeof e } : function (e) { return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e }, e = function () { function i(e, t) { for (var n = 0; n < t.length; n++) { var i = t[n]; i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(e, i.key, i) } } return function (e, t, n) { return t && i(e.prototype, t), n && i(e, n), e } }(); function i(e, t) { if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function") } var t = function () { function n(e, t) { i(this, n), this.browser = e, this.config = t, this.options = this.browser.options, this.prefetched = new Set, this.eventTime = null, this.threshold = 1111, this.numOnHover = 0 } return e(n, [{ key: "init", value: function () { !this.browser.supportsLinkPrefetch() || this.browser.isDataSaverModeOn() || this.browser.isSlowConnection() || (this.regex = { excludeUris: RegExp(this.config.excludeUris, "i"), images: RegExp(".(" + this.config.imageExt + ")$", "i"), fileExt: RegExp(".(" + this.config.fileExt + ")$", "i") }, this._initListeners(this)) } }, { key: "_initListeners", value: function (e) { -1 < this.config.onHoverDelay && document.addEventListener("mouseover", e.listener.bind(e), e.listenerOptions), document.addEventListener("mousedown", e.listener.bind(e), e.listenerOptions), document.addEventListener("touchstart", e.listener.bind(e), e.listenerOptions) } }, { key: "listener", value: function (e) { var t = e.target.closest("a"), n = this._prepareUrl(t); if (null !== n) switch (e.type) { case "mousedown": case "touchstart": this._addPrefetchLink(n); break; case "mouseover": this._earlyPrefetch(t, n, "mouseout") } } }, { key: "_earlyPrefetch", value: function (t, e, n) { var i = this, r = setTimeout(function () { if (r = null, 0 === i.numOnHover) setTimeout(function () { return i.numOnHover = 0 }, 1e3); else if (i.numOnHover > i.config.rateThrottle) return; i.numOnHover++, i._addPrefetchLink(e) }, this.config.onHoverDelay); t.addEventListener(n, function e() { t.removeEventListener(n, e, { passive: !0 }), null !== r && (clearTimeout(r), r = null) }, { passive: !0 }) } }, { key: "_addPrefetchLink", value: function (i) { return this.prefetched.add(i.href), new Promise(function (e, t) { var n = document.createElement("link"); n.rel = "prefetch", n.href = i.href, n.onload = e, n.onerror = t, document.head.appendChild(n) }).catch(function () { }) } }, { key: "_prepareUrl", value: function (e) { if (null === e || "object" !== (void 0 === e ? "undefined" : r(e)) || !1 in e || -1 === ["http:", "https:"].indexOf(e.protocol)) return null; var t = e.href.substring(0, this.config.siteUrl.length), n = this._getPathname(e.href, t), i = { original: e.href, protocol: e.protocol, origin: t, pathname: n, href: t + n }; return this._isLinkOk(i) ? i : null } }, { key: "_getPathname", value: function (e, t) { var n = t ? e.substring(this.config.siteUrl.length) : e; return n.startsWith("/") || (n = "/" + n), this._shouldAddTrailingSlash(n) ? n + "/" : n } }, { key: "_shouldAddTrailingSlash", value: function (e) { return this.config.usesTrailingSlash && !e.endsWith("/") && !this.regex.fileExt.test(e) } }, { key: "_isLinkOk", value: function (e) { return null !== e && "object" === (void 0 === e ? "undefined" : r(e)) && (!this.prefetched.has(e.href) && e.origin === this.config.siteUrl && -1 === e.href.indexOf("?") && -1 === e.href.indexOf("#") && !this.regex.excludeUris.test(e.href) && !this.regex.images.test(e.href)) } }], [{ key: "run", value: function () { "undefined" != typeof RocketPreloadLinksConfig && new n(new RocketBrowserCompatibilityChecker({ capture: !0, passive: !0 }), RocketPreloadLinksConfig).init() } }]), n }(); t.run();
+                }());
+            </script>
+            <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/lib.js" id="Lib-js"></script>
+            <script type="text/javascript" id="Init-js-extra">
+                /* <![CDATA[ */
+                var mrgvars = { "maincolor": "#FF4256", "loadingimg": "https:\/\/www.joeyoungblood.com\/wp-content\/themes\/vania\/img\/loader.gif", "loadmsg": "Loading posts...", "scbase": "", "nomsg": "No posts" };
+/* ]]> */
+            </script>
+            <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/init.js" id="Init-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/dom-ready.min.js"
+                id="wp-dom-ready-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/hooks.min.js"
+                id="wp-hooks-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/i18n.min.js"
+                id="wp-i18n-js"></script>
+            <script type="text/javascript" id="wp-i18n-js-after">
+                wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
+            </script>
+            <script type="text/javascript" id="wp-a11y-js-translations">
+                (function (domain, translations) {
+                    var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+                    localeData[""].domain = domain;
+                    wp.i18n.setLocaleData(localeData, domain);
+                })("default", { "locale_data": { "messages": { "": {} } } });
+            </script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/a11y.min.js"
+                id="wp-a11y-js"></script>
+            <script type="text/javascript" defer="defer"
+                src="./Crypto Art Consulting - Joe Youngblood_files/jquery.maskedinput.min.js"
+                id="gform_masked_input-js"></script>
+            <script type="text/javascript" defer="defer"
+                src="./Crypto Art Consulting - Joe Youngblood_files/placeholders.jquery.min.js"
+                id="gform_placeholder-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/off-screen.js"
+                id="glossary-off-screen-js"></script>
+            <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/js_composer_front.min.js"
+                id="wpb_composer_front_js-js"></script>
+            <script data-wpacu-to-be-preloaded-basic="1" type="text/javascript"
+                src="./Crypto Art Consulting - Joe Youngblood_files/vc-waypoints.min.js" id="vc_waypoints-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/jquery-appear.min.js"
+                id="ultimate-appear-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/ultimate_bg.min.js"
+                id="ultimate-row-bg-js"></script>
+            <script type="text/javascript" src="./Crypto Art Consulting - Joe Youngblood_files/custom.min.js"
+                id="ultimate-custom-js"></script>
+            <script type="text/javascript"
+                id="slb_context">/* <![CDATA[ */if (!!window.jQuery) { (function ($) { $(document).ready(function () { if (!!window.SLB) { { $.extend(SLB, { "context": ["public", "user_guest"] }); } } }) })(jQuery); }/* ]]> */</script>
+            <script type="text/javascript">
+                gform.initializeOnLoaded(function () {
+                    jQuery(document).on('gform_post_render', function (event, formId, currentPage) {
+                        if (formId == 3) {
+                            if (typeof Placeholders != 'undefined') {
+                                Placeholders.enable();
+                            } jQuery('#input_3_2').mask('(999) 999-9999').bind('keypress', function (e) { if (e.which == 13) { jQuery(this).blur(); } });
+                        }
+                    }); jQuery(document).bind('gform_post_conditional_logic', function (event, formId, fields, isInit) { })
+                });
+            </script>
+            <script type="text/javascript">
+                gform.initializeOnLoaded(function () { jQuery(document).trigger('gform_post_render', [3, 1]) });
+            </script>
+            <script type="text/javascript">
+                gform.initializeOnLoaded(function () {
+                    jQuery(document).on('gform_post_render', function (event, formId, currentPage) {
+                        if (formId == 35) {
+                            if (typeof Placeholders != 'undefined') {
+                                Placeholders.enable();
+                            } jQuery('#input_35_2').mask('(999) 999-9999').bind('keypress', function (e) { if (e.which == 13) { jQuery(this).blur(); } });
+                        }
+                    }); jQuery(document).bind('gform_post_conditional_logic', function (event, formId, fields, isInit) { })
+                });
+            </script>
+            <script type="text/javascript">
+                gform.initializeOnLoaded(function () { jQuery(document).trigger('gform_post_render', [35, 1]) });
+            </script>
+            <script id="dsq-count-scr" src="./Crypto Art Consulting - Joe Youngblood_files/count.js" async=""
+                defer=""></script>
+            <script>window.lazyLoadOptions = { elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) { if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } } } }; window.addEventListener('LazyLoad::Initialized', function (e) {
+                    var lazyLoadInstance = e.detail.instance; if (window.MutationObserver) {
+                        var observer = new MutationObserver(function (mutations) {
+                            var image_count = 0; var iframe_count = 0; var rocketlazy_count = 0; mutations.forEach(function (mutation) {
+                                for (i = 0; i < mutation.addedNodes.length; i++) {
+                                    if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') { continue }
+                                    if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') { continue }
+                                    images = mutation.addedNodes[i].getElementsByTagName('img'); is_image = mutation.addedNodes[i].tagName == "IMG"; iframes = mutation.addedNodes[i].getElementsByTagName('iframe'); is_iframe = mutation.addedNodes[i].tagName == "IFRAME"; rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload'); image_count += images.length; iframe_count += iframes.length; rocketlazy_count += rocket_lazy.length; if (is_image) { image_count += 1 }
+                                    if (is_iframe) { iframe_count += 1 }
+                                }
+                            }); if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) { lazyLoadInstance.update() }
+                        }); var b = document.getElementsByTagName("body")[0]; var config = { childList: !0, subtree: !0 }; observer.observe(b, config)
+                    }
+                }, !1)</script>
+            <script data-no-minify="1" async=""
+                src="./Crypto Art Consulting - Joe Youngblood_files/lazyload.min.js"></script>
+            <script>function lazyLoadThumb(e) { var t = '<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>', a = '<div class="play"></div>'; return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.dataset.query.length ? '' : '&' + this.dataset.query; e.setAttribute("src", t.replace("ID", this.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.replaceChild(e, this) } document.addEventListener("DOMContentLoaded", function () { var e, t, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id), e.onclick = lazyLoadYoutubeIframe, a[t].appendChild(e) });</script>
+        </div> <!-- /vn-wrap -->
+    </div> <!-- /vn-page -->
+    <script>"use strict"; var wprRemoveCPCSS = function wprRemoveCPCSS() { var elem; document.querySelector('link[data-rocket-async="style"][rel="preload"]') ? setTimeout(wprRemoveCPCSS, 200) : (elem = document.getElementById("rocket-critical-css")) && "remove" in elem && elem.remove() }; window.addEventListener ? window.addEventListener("load", wprRemoveCPCSS) : window.attachEvent && window.attachEvent("onload", wprRemoveCPCSS);</script>
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2C400%2C600%7CRoboto%20Condensed%3A400%2C700&#038;display=swap" />
+        <link rel='stylesheet' id='wp-block-library-css'
+            href='https://www.joeyoungblood.com/wp-includes/css/dist/block-library/style.min.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-animate-styles-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/assets/css/animate.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-frontend-styles-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/assets/css/lvca-frontend.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-icomoon-styles-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/assets/css/icomoon.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='contact-form-7-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='iml_owl.carousel_vc-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/indeed-my-logos-vc/files/css/owl.carousel.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='iml_font-awesome-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/indeed-my-logos-vc/files/css/font-awesome.min.css'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='iml_style_front_end_vc-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/indeed-my-logos-vc/files/css/style-front_end.css'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='image-hover-effects-css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='style-css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='font-awesome-latest-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/all.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='dashicons-css'
+            href='https://www.joeyoungblood.com/wp-includes/css/dashicons.min.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='awsm-jobs-general-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/wp-job-openings/assets/css/general.min.css?ver=2.2.0'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='awsm-jobs-style-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/wp-job-openings/assets/css/style.min.css?ver=2.2.0'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ppress-frontend-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=3.1.16'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ppress-flatpickr-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=3.1.16'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ppress-select2-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-testimonials-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/includes/addons/testimonials/css/style.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-flexslider-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/assets/css/flexslider.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='lvca-testimonials-slider-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/addons-for-visual-composer/includes/addons/testimonials-slider/css/style.css?ver=2.7.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='Bootstrap-css'
+            href='https://www.joeyoungblood.com/wp-content/themes/vania/css/bootstrap.css' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='Lib-css'
+            href='https://www.joeyoungblood.com/wp-content/themes/vania/css/lib.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='Style-css'
+            href='https://www.joeyoungblood.com/wp-content/themes/vania/css/main.css?ver=1.8' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='Responsive-css'
+            href='https://www.joeyoungblood.com/wp-content/themes/vania/css/responsive.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='slb_core-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.8.1'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='tablepress-default-css'
+            href='https://www.joeyoungblood.com/wp-content/tablepress-combined.min.css?ver=5' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='tablepress-responsive-tables-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='js_composer_front-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='gforms_reset_css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.5.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='gforms_formsmain_css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.5.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='gforms_ready_class_css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.5.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='gforms_browsers_css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.5.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='bsf-Defaults-css'
+            href='https://www.joeyoungblood.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=3.19.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ultimate-style-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.19.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ultimate-headings-style-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/headings.min.css?ver=3.19.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ultimate-dual-colors-style-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/dual_color.min.css?ver=3.19.9'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='rich-reviews-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/rich-reviews/css/rich-reviews.css?ver=e584101e1036f47018a547a1b15d29f7'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='glossary-hint-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/glossary-by-codeat-premium/assets/css/tooltip-box.css?ver=2.0.20'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='vc_animate-css-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=6.7.0'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='ult-background-style-css'
+            href='https://www.joeyoungblood.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.19.9'
+            type='text/css' media='all' />
+    </noscript>
+
+    <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1637644347 -->
+    <p id="a11y-speak-intro-text" class="a11y-speak-intro-text"
+        style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+        hidden="hidden">Notifications</p>
+    <div id="a11y-speak-assertive" class="a11y-speak-region"
+        style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+        aria-live="assertive" aria-relevant="additions text" aria-atomic="true"></div>
+    <div id="a11y-speak-polite" class="a11y-speak-region"
+        style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+        aria-live="polite" aria-relevant="additions text" aria-atomic="true"></div><iframe name="oauth2relay1627012110"
+        id="oauth2relay1627012110" src="./Crypto Art Consulting - Joe Youngblood_files/postmessageRelay.html"
+        tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>
+    <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+            <div></div>
+        </div>
+    </div>
+    <div
+        style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0;">
+        <div
+            style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;">
+        </div>
+        <div
+            style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255); overflow: hidden;">
+            <iframe title="recaptcha challenge expires in two minutes"
+                src="./Crypto Art Consulting - Joe Youngblood_files/bframe.html" name="c-den9ebrbkkyb" frameborder="0"
+                scrolling="no"
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                style="width: 100%; height: 100%;"></iframe></div>
+    </div>
+</body>
+
+</html>

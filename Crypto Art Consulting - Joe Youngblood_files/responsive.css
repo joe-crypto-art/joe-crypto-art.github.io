@@ -1,0 +1,152 @@
+/* =============================================================================
+	Large Devices (col-lg) (1)
+   ============================================================================= */
+@media only screen and (max-width: 1200px) {
+  #vn-featured-carousel .featured-item {
+    height: auto; }
+
+  html.show-menu, body.show-menu, .show-menu #vn-page {
+    overflow-y: hidden; }
+
+  .slide-mobmenu, .show-menu .slide-mobmenu, body.show-menu .overmb {
+    display: block; }
+
+  #vn-featured-posts .entry-title, #vn-featured-carousel .entry-title {
+    font-size: 20px; }
+
+  #vn-featured-posts .featured-item-1 .entry-title {
+    font-size: 32px; }
+
+  #vn-main-feed .featured-img {
+    height: 228px; } }
+/* =============================================================================
+	Medium Devices (col-md) (2)
+   ============================================================================= */
+@media only screen and (max-width: 992px) {
+  #vn-featured-posts .entry-title, #vn-featured-carousel .entry-title {
+    font-size: 20px; }
+
+  #vn-featured-posts .featured-item-1 .entry-title {
+    font-size: 24px; }
+
+  #vn-featured-posts .featured-item:last-child {
+    display: none; }
+
+  .widget_vania_popular_posts .popular_list_top {
+    max-height: 230px; }
+
+  .widget_vania_popular_posts .popular_list img {
+    width: 10%; }
+
+  .widget_vania_popular_tabbed .nav-tabs li {
+    max-width: 250px; }
+
+  .container-single-content #secondary {
+    margin-top: 30px; }
+
+  .container-blog #vn-main-feed .entry-meta {
+    bottom: 0; }
+
+  #vn-main-feed article {
+    border: 1px solid #eee;
+    height: auto;
+    margin-bottom: 20px; }
+  #vn-main-feed .entry-title {
+    font-size: 20px;
+    font-weight: normal; }
+  #vn-main-feed .entry-content {
+    height: auto;
+    border: 0;
+    padding-top: 15px;
+    overflow: hidden; }
+    #vn-main-feed .entry-content p {
+      display: block; }
+  #vn-main-feed .entry-meta {
+    position: relative;
+    padding: 8px 15px 0;
+    max-height: auto;
+    bottom: 0; }
+  #vn-main-feed .entry-fade::after {
+    display: none; }
+  #vn-main-feed .featured-img {
+    max-height: 250px;
+    height: auto;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+    float: left;
+    max-width: 33%;
+    margin: 15px;
+    margin-right: 0 !important; }
+    #vn-main-feed .featured-img::after {
+      display: none; }
+    #vn-main-feed .featured-img img {
+      width: 100%;
+      height: auto; } }
+/* =============================================================================
+	Small Devices (col-sm) (3)
+   ============================================================================= */
+@media only screen and (max-width: 767px) {
+  .label-title {
+    padding: 12px 10px;
+    font-size: 16px; }
+
+  .widget_vania_popular_posts .popular_list img {
+    width: 15%; }
+
+  .container-header, .home.vn-featured-area .container-header {
+    margin-top: 0;
+    padding-left: 15px; }
+
+  .vn-boxed .container-header, .vn-boxed.vn-featured-area .container-header {
+    padding-left: 0; }
+
+  #vn-featured-carousel .featured-item {
+    height: 380px; } }
+/* =============================================================================
+	Extra small devices (col-xs) (4)
+   ============================================================================= */
+@media only screen and (max-width: 480px) {
+  #comments #respond p.comment-form-author, #comments #respond p.comment-form-email, #comments #respond p.comment-form-url, #vn-contact-form p.comment-form-author, #vn-contact-form p.comment-form-email, #vn-contact-form p.comment-form-url {
+    width: 100%; }
+
+  #vn-featured-posts .featured-item {
+    width: 100%; }
+
+  #vn-featured-posts .featured-item, #vn-featured-carousel .featured-item {
+    height: 280px; }
+  #vn-featured-posts .featured-item .entry-title, #vn-featured-carousel .featured-item .entry-title {
+    font-size: 18px; }
+
+  #vn-main-feed .ub-overlay, #vn-main-feed .ubscore {
+    display: none; }
+  #vn-main-feed .entry-title {
+    font-size: 18px; }
+
+  .container-featured, .container-header, .home.vn-featured-area .container-header {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0; }
+
+  .widget_vania_popular_posts .popular_list img {
+    width: 20%; }
+
+  .widget_quick-flickr-widget ul li, #footer .widget_quick-flickr-widget ul li {
+    width: 26%; }
+
+  .form-search input.search-query {
+    width: 60% !important;
+    margin-bottom: 10px; }
+
+  #vn-header.append {
+    position: relative; }
+
+  #vn-wrap.top-wrap {
+    padding: 0; }
+
+  .extra-top #vn-header.append {
+    top: 0; } }
+/* =============================================================================
+	Custom Devices (5)
+   ============================================================================= */
